@@ -12,6 +12,50 @@ from api.routes import api
 from api.admin import setup_admin
 #from models import Person
 
+Base = declarative_base()
+
+
+class Biker(Base):
+    __tablename__ = "biker"
+    id = Column(Integer, primary_key = True)
+    bikername = Column(String, unique = True)
+    firstname = Column(String)
+    lastname = Column(String) 
+    email = Column(String,unique=True)
+
+class Helper(Base):
+    __tablename__ = "helper"
+    id = Column(Integer, primary_key = True)
+    biker_id = Column(Integer, ForeignKey("biker.id"))
+    biker = relationship(Biker)
+    taller_id = Column(Integer, ForeignKey("taller.id"))
+    taller = relationship(Taller)
+
+
+class Taller(Base):
+    __tablename__ = "taller"
+    id = Column(Integer, primary_key = True)
+    tallername = Column(String, unique = True)
+    name = Column(String)
+    email = Column(String,unique=True)
+
+class Blog(Base):
+    __tablename__ = "post"
+    id = Column(Integer, primary_key = True)
+    biker_id = Column(Integer, ForeignKey("biker.id"))
+    biker = relationship(Biker)
+    taller_id = Column(Integer, ForeignKey("taller.id"))
+    taller = relationship(Taller)
+
+class Comment(Base):
+    __tablename__ = "comment"
+    id = Column(Integer, primary_key = True)
+    comment_text = Column(String)
+    author_id = Column(Integer, ForeignKey("biker.id"))
+    user = relationship(User)
+    blog_id = Column(Integer, ForeignKey("blog.id"))
+    blog = relationship(Blog)
+
 ENV = os.getenv("FLASK_ENV")
 static_file_dir = os.path.join(os.path.dirname(os.path.realpath(__file__)), '../public/')
 app = Flask(__name__)
