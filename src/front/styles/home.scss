@@ -5,8 +5,13 @@
 .Container{
     background-color: #183540;
     width: 100%;
+    flex: auto;
 }
 
+h1{
+    padding-left: 165px;
+    padding-top: 50px;
+}
 img{
     width: 400px;
     padding-top: 50px;
@@ -18,6 +23,8 @@ button{
 }
 
 .card{
-    width: 30rem;
+    width: 26rem;
     margin: 50px;
+    background-color:#306980;
+    border-radius: 30px;
 }
