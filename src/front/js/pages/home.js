@@ -17,9 +17,9 @@ export const Home = () => {
 				</div>
 
 				<div className="col-6">
-					<div className="card m-6">
-						<form>
-							<div className="mb-3 p-3">
+					<div className="card">
+						<form className="p-3">
+							<div className=" p-3">
 								<div className="row">
 									<div className="col-12">
 										<label htmlFor="" className="form-label">
