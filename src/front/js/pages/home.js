@@ -9,14 +9,14 @@ export const Home = () => {
 	return (
 		<div className="Container">
 			<div className="row ">
-				<div className="col-6">
+				<div className="col-ms-6">
 					<h1>BikeMeApp</h1>
 					<p>
 						<img src={BikeMeApp} />
 					</p>
 				</div>
 
-				<div className="col-6">
+				<div className="col-ms-6">
 					<div className="card">
 						<form className="p-3">
 							<div className=" p-3">
