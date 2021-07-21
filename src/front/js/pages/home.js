@@ -1,24 +1,53 @@
 import React, { useContext } from "react";
 import { Context } from "../store/appContext";
-import rigoImageUrl from "../../img/rigo-baby.jpg";
+import BikeMeApp from "../../img/BikeMeApp.png";
 import "../../styles/home.scss";
 
 export const Home = () => {
 	const { store, actions } = useContext(Context);
 
 	return (
-		<div className="text-center mt-5">
-			<h1>Hello Rigo!</h1>
-			<p>
-				<img src={rigoImageUrl} />
-			</p>
-			<div className="alert alert-info">{store.message || "Loading message from the backend..."}</div>
-			<p>
-				This boilerplate comes with lots of documentation:{" "}
-				<a href="https://github.com/4GeeksAcademy/react-flask-hello/tree/95e0540bd1422249c3004f149825285118594325/docs">
-					Read documentation
-				</a>
-			</p>
+		<div className="Container">
+			<div className="row ">
+				<div className="col-6">
+					<h1>BikeMeApp</h1>
+					<p>
+						<img src={BikeMeApp} />
+					</p>
+				</div>
+
+				<div className="col-6">
+					<form>
+						<div className="mb-3">
+							<label htmlFor="" className="form-label">
+								Email address
+							</label>
+							<input type="email" className="form-control" id="" />
+							<label htmlFor="inputPassword" className="form-label">
+								Password
+							</label>
+							<input type="password" className="form-control" id="inputPassword" />
+							<button type="button" className="btn btn-primary">
+								Left
+							</button>
+						</div>
+					</form>
+				</div>
+			</div>
 		</div>
 	);
 };
+
+//    <div className="text-center mt-5">
+// 		<h1>Hello Rigo!</h1>
+// 		<p>
+// 			<img src={rigoImageUrl} />
+// 		</p>
+// 		<div className="alert alert-info">{store.message || "Loading message from the backend..."}</div>
+// 		<p>
+// 			This boilerplate comes with lots of documentation:{" "}
+// 			<a href="https://github.com/4GeeksAcademy/react-flask-hello/tree/95e0540bd1422249c3004f149825285118594325/docs">
+// 				Read documentation
+// 			</a>
+// 		</p>
+// 	</div>
