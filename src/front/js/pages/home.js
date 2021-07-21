@@ -17,21 +17,39 @@ export const Home = () => {
 				</div>
 
 				<div className="col-6">
-					<form>
-						<div className="mb-3">
-							<label htmlFor="" className="form-label">
-								Email address
-							</label>
-							<input type="email" className="form-control" id="" />
-							<label htmlFor="inputPassword" className="form-label">
-								Password
-							</label>
-							<input type="password" className="form-control" id="inputPassword" />
-							<button type="button" className="btn btn-primary">
-								Left
-							</button>
-						</div>
-					</form>
+					<div className="card">
+						<form>
+							<div className="mb-3 p-3">
+								<div className="row">
+									<div className="col-12">
+										<label htmlFor="" className="form-label">
+											Email address
+										</label>
+										<input type="email" className="form-control" id="" />
+									</div>
+									<div className="col-12">
+										<label htmlFor="inputPassword" className="form-label">
+											Password
+										</label>
+										<input type="password" className="form-control" id="inputPassword" />
+									</div>
+									<div className="col-12">
+										<button type="button" className="btn btn-primary m-3">
+											Iniciar esion
+										</button>
+									</div>
+									<div className="col-12">
+										<h5>¿Olvidaste tu contraseña?</h5>
+									</div>
+									<div className="col-12">
+										<button type="button" className="btn btn-primary m-3">
+											Crear cuenta
+										</button>
+									</div>
+								</div>
+							</div>
+						</form>
+					</div>
 				</div>
 			</div>
 		</div>
