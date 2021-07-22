@@ -23,7 +23,7 @@ export const Home = () => {
 							<div className="row justify-content-center m-3">
 								<div className="col-12">
 									<label htmlFor="" className="form-label">
-										Email address
+										Email
 									</label>
 									<input type="email" className="form-control" id="" />
 								</div>
