@@ -25,13 +25,23 @@ export const Home = () => {
 									<label htmlFor="" className="form-label">
 										Email
 									</label>
-									<input type="email" className="form-control" id="" />
+									<input
+										type="email"
+										className="form-control"
+										id=""
+										placeholder="email@Address.com"
+									/>
 								</div>
 								<div className="col-12">
 									<label htmlFor="inputPassword" className="form-label">
 										Password
 									</label>
-									<input type="password" className="form-control" id="inputPassword" />
+									<input
+										type="password"
+										className="form-control"
+										id="inputPassword"
+										placeholder="password"
+									/>
 								</div>
 								<div className="col-12">
 									<button type="button" className="btn btn-primary m-3">
