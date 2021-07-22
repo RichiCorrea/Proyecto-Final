@@ -8,44 +8,42 @@ export const Home = () => {
 
 	return (
 		<div className="Container">
-			<div className="row ">
-				<div className="col-ms-6">
-					<h1>BikeMeApp</h1>
+			<div className="row justify-content-center">
+				<div className="col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6  text-center">
+					<h1 className="titulo">BikeMeApp</h1>
 					<p>
 						<img src={BikeMeApp} />
 					</p>
 				</div>
 
-				<div className="col-ms-6">
-					<div className="card">
-						<form className="p-3">
-							<div className=" p-3">
-								<div className="row">
-									<div className="col-12">
-										<label htmlFor="" className="form-label">
-											Email address
-										</label>
-										<input type="email" className="form-control" id="" />
-									</div>
-									<div className="col-12">
-										<label htmlFor="inputPassword" className="form-label">
-											Password
-										</label>
-										<input type="password" className="form-control" id="inputPassword" />
-									</div>
-									<div className="col-12">
-										<button type="button" className="btn btn-primary m-3">
-											Iniciar esion
-										</button>
-									</div>
-									<div className="col-12">
-										<h5>¿Olvidaste tu contraseña?</h5>
-									</div>
-									<div className="col-12">
-										<button type="button" className="btn btn-primary m-3">
-											Crear cuenta
-										</button>
-									</div>
+				<div className="col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 pt-5">
+					<div className="card ml-3 mb-3">
+						<form>
+							<div className="row justify-content-center m-3">
+								<div className="col-12">
+									<label htmlFor="" className="form-label">
+										Email address
+									</label>
+									<input type="email" className="form-control" id="" />
+								</div>
+								<div className="col-12">
+									<label htmlFor="inputPassword" className="form-label">
+										Password
+									</label>
+									<input type="password" className="form-control" id="inputPassword" />
+								</div>
+								<div className="col-12">
+									<button type="button" className="btn btn-primary m-3">
+										Iniciar esion
+									</button>
+								</div>
+								<div className="col-12">
+									<h5>¿Olvidaste tu contraseña?</h5>
+								</div>
+								<div className="col-12">
+									<button type="button" className="btn btn-primary m-3">
+										Crear cuenta
+									</button>
 								</div>
 							</div>
 						</form>
