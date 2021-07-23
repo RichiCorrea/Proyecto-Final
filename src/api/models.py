@@ -9,6 +9,7 @@ class Biker(db.Model):
     firstname = db.Column(db.String(80))
     lastname = db.Column(db.String(80))
     password = db.Column(db.String(80), unique=False, nullable=False)
+    address = db.Column(db.String, unique=False, nullable=False)
     is_active = db.Column(db.Boolean(), unique=False, nullable=False)
 
     def __repr__(self):
@@ -20,7 +21,8 @@ class Biker(db.Model):
             "email": self.email,
             "bikername": self.bikername,
             "firstname": self.firstname,
-            "lastname": self.lastname
+            "lastname": self.lastname,
+            "address": self.address
             # do not serialize the password, its a security breach
         }
     def save(self):
@@ -43,12 +45,14 @@ class Helper(db.Model):
     biker = relationship(Biker)
     taller_id = db.Column(db.Integer, ForeignKey("taller.id"))
     taller = relationship(Taller)
+    address = db.Column(db.String, unique=False, nullable=False)
 
     def serialize(self):
         return{
             "id":self.id,
             "bikername":self.bikername,
-            "tallerid": self.taller_id
+            "tallerid": self.taller_id,
+            "address": self.address
         }
     def save(self):
         db.session.add(self)
@@ -69,12 +73,14 @@ class Taller(db.Model):
     id = db.Column(db.Integer, primary_key = True)
     tallername = db.Column(db.String(80), unique = True, nullable=False)
     email = db.Column(db.String(80),unique=True)
+    address = db.Column(db.String, unique=False, nullable=False)
 
     def serialize(self):
         return{
             "id" = self.id,
             "tallername" = self.tallername,
             "email" = self.email
+            "address" = self.address
         }
     def save(self):
         db.session.add(self)
