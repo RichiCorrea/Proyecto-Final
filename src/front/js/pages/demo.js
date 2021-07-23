@@ -1,5 +1,7 @@
 import React, { useState, useEffect, useContext } from "react";
 import { Link } from "react-router-dom";
+import BikeMeAppHELP from "../../img/BikeMeAppHELP.png";
+import BikeMeAppTALLER from "../../img/BikeMeAppTALLER.png";
 
 import { Context } from "../store/appContext";
 
@@ -9,7 +11,37 @@ export const Demo = () => {
 	const { store, actions } = useContext(Context);
 
 	return (
-		<div className="container">
+		<div className="Container">
+			<div className="row  ">
+				<div className="col-md-12 col-lg-6 text-center pt-5">
+					<div className="ml-auto">
+						<Link to="/MapHelp">
+							<button className="btn ">
+								<p>
+									<img src={BikeMeAppHELP} />
+								</p>
+							</button>
+						</Link>
+					</div>
+				</div>
+				<div className="col-md-12 col-lg-6 text-center pt-5">
+					<div className="ml-auto">
+						<Link to="/MapTaller">
+							<button className="btn ">
+								<p>
+									<img src={BikeMeAppTALLER} />
+								</p>
+							</button>
+						</Link>
+					</div>
+				</div>
+			</div>
+		</div>
+	);
+};
+
+{
+	/* <div className="container">
 			<ul className="list-group">
 				{store.demo.map((item, index) => {
 					return (
@@ -38,6 +70,5 @@ export const Demo = () => {
 			<Link to="/">
 				<button className="btn btn-primary">Back home</button>
 			</Link>
-		</div>
-	);
-};
+		</div> */
+}

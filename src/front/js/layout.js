@@ -3,8 +3,11 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import ScrollToTop from "./component/scrollToTop";
 
 import { Home } from "./pages/home";
+import { Registro } from "./pages/registro";
 import { Demo } from "./pages/demo";
 import { Single } from "./pages/single";
+import { MapHelp } from "./pages/MapHelp";
+import { MapTaller } from "./pages/MapTaller";
 import injectContext from "./store/appContext";
 
 import { Navbar } from "./component/navbar";
@@ -25,8 +28,17 @@ const Layout = () => {
 						<Route exact path="/">
 							<Home />
 						</Route>
+						<Route exact path="/registro">
+							<Registro />
+						</Route>
 						<Route exact path="/demo">
 							<Demo />
+						</Route>
+						<Route exact path="/MapHelp">
+							<MapHelp />
+						</Route>
+						<Route exact path="/MapTaller">
+							<MapTaller />
 						</Route>
 						<Route exact path="/single/:theid">
 							<Single />
