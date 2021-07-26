@@ -13,7 +13,7 @@ export const Home = () => {
 				<div className="col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6  text-center">
 					<h1 className="titulo">BikeMeApp</h1>
 					<p>
-						<img src={BikeMeApp} />
+						<img className="logo" src={BikeMeApp} />
 					</p>
 				</div>
 
