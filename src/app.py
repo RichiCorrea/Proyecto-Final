@@ -7,11 +7,10 @@ from flask_migrate import Migrate
 from flask_swagger import swagger
 from flask_cors import CORS
 from api.utils import APIException, generate_sitemap
-from api.models import db
+from api.models import Biker, db , Helper, Taller, Blog, Comment
 from api.routes import api
 from api.admin import setup_admin
 from flask_jwt_extended import JWTManager
-from models import Biker, db , Helper, Taller, Blog, Comment
 
 
 
