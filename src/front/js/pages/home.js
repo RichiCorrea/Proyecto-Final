@@ -52,9 +52,11 @@ export const Home = () => {
 									<h5>¿Olvidaste tu contraseña?</h5>
 								</div>
 								<div className="col-12">
-									<button type="button" className="btn btn-primary m-3">
-										Crear cuenta
-									</button>
+									<Link to="/Registro">
+										<button type="button" className="btn btn-primary m-3">
+											Crear cuenta
+										</button>
+									</Link>
 								</div>
 							</div>
 						</form>
