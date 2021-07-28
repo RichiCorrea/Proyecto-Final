@@ -20,6 +20,16 @@ const NavLinks = () => {
 					Registro
 				</Link>
 			</li>
+			<li className="list-unstyled">
+				<Link to="/Registrohelp" className="linkNavbar">
+					Registro Help
+				</Link>
+			</li>
+			<li className="list-unstyled">
+				<Link to="/RegistroTaller" className="linkNavbar">
+					Registro Taller
+				</Link>
+			</li>
 		</ul>
 	);
 };

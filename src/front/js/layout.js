@@ -8,6 +8,8 @@ import { Demo } from "./pages/demo";
 import { Single } from "./pages/single";
 import { MapHelp } from "./pages/MapHelp";
 import { MapTaller } from "./pages/MapTaller";
+import { Registrohelp } from "./pages/Registrohelp";
+import { RegistroTaller } from "./pages/RegistroTaller";
 import injectContext from "./store/appContext";
 
 import { Navbar } from "./component/navbar";
@@ -39,6 +41,12 @@ const Layout = () => {
 						</Route>
 						<Route exact path="/MapTaller">
 							<MapTaller />
+						</Route>
+						<Route exact path="/Registrohelp">
+							<Registrohelp />
+						</Route>
+						<Route exact path="/RegistroTaller">
+							<RegistroTaller />
 						</Route>
 						<Route exact path="/single/:theid">
 							<Single />
