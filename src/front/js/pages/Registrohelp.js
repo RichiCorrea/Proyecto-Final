@@ -1,19 +1,29 @@
 import React from "react";
+import "../../styles/registrohelp.scss";
+import RegisTrohelp from "../../img/RegisTrohelp.png";
 
 export const Registrohelp = () => {
 	return (
 		<div className="Container">
-			<div className="card mx-auto ">
-				<form>
-					<div className="row  m-3">
-						<div className="col-12">
-							<label htmlFor="inputPassword" className="form-label">
-								Nombre de usuario
-							</label>
-							<input type="" className="form-control" id="" />
-						</div>
+			<div className="row">
+				<div className="col-6">
+					<h4>Aquí puedes activar tu perfil para ayudar a otras persona</h4>
+					<p>
+						<img src={RegisTrohelp} className="img-fluid" />
+					</p>
+				</div>
+				<div className="col-6">
+					<div className="card mx-auto ">
+						<form>
+							<button type="button" className="btn btn-primary m-3">
+								activar
+							</button>
+							<button type="button" className="btn btn-primary m-3">
+								Desactivar
+							</button>
+						</form>
 					</div>
-				</form>
+				</div>
 			</div>
 		</div>
 	);

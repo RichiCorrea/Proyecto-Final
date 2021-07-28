@@ -26,7 +26,7 @@ const NavLinks = () => {
 				</Link>
 			</li>
 			<li className="list-unstyled">
-				<Link to="/RegistroTaller" className="linkNavbar">
+				<Link to="/Registrotaller" className="linkNavbar">
 					Registro Taller
 				</Link>
 			</li>
