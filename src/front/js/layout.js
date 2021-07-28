@@ -9,7 +9,7 @@ import { Single } from "./pages/single";
 import { MapHelp } from "./pages/MapHelp";
 import { MapTaller } from "./pages/MapTaller";
 import { Registrohelp } from "./pages/Registrohelp";
-import { RegistroTaller } from "./pages/RegistroTaller";
+import { Registrotaller } from "./pages/Registrotaller";
 import injectContext from "./store/appContext";
 
 import { Navbar } from "./component/navbar";
@@ -45,8 +45,8 @@ const Layout = () => {
 						<Route exact path="/Registrohelp">
 							<Registrohelp />
 						</Route>
-						<Route exact path="/RegistroTaller">
-							<RegistroTaller />
+						<Route exact path="/Registrotaller">
+							<Registrotaller />
 						</Route>
 						<Route exact path="/single/:theid">
 							<Single />

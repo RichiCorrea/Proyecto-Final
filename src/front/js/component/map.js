@@ -1,3 +1,5 @@
+import React from "react";
+
 const initMap = () => {
 	var myloc = { lat: 38.3, lng: 36.3 };
 	var myopt = {
