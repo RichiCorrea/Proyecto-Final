@@ -1,6 +1,6 @@
 .navbar {
     background-color: #499EBF;
-    height: 80px;
+    height: 40px;
     width: 100%;
     z-index: 999;
     position: fixed;
@@ -8,6 +8,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    margin-bottom: 5px;
 }
 .navbar ul{
     display: flex;
