@@ -18,9 +18,8 @@ export const Home = () => {
 	if (store.token && store.token != "" && store.token != undefined) history.push("/demo");
 
 	return (
-		<div className="Container w-100">
-			<div className="mt-5" />
-			<div className="row d-flex justify-content-center align-items-center">
+		<div className="Container w-100 m-0 py-5">
+			<div className="row d-flex m-0 justify-content-center align-items-center">
 				<div className="col-12 col-lg-6 text-center">
 					<h1 className="titulo">BikeMeApp</h1>
 					<p>
@@ -28,7 +27,7 @@ export const Home = () => {
 					</p>
 				</div>
 
-				<div className="row d-flex justify-content-center">
+				<div className="row d-flex justify-content-center py-5">
 					<div className="card col-12 col-lg-12">
 						{store.token && store.token != "" && store.token != undefined ? (
 							"You are logged in with this token" + store.token
@@ -36,7 +35,7 @@ export const Home = () => {
 							<form className="col-11 py-2">
 								<div>
 									<div className="col-12">
-										<label htmlFor="" className="form-label">
+										<label htmlFor="" className="text-white form-label">
 											Email
 										</label>
 										<input
@@ -49,7 +48,7 @@ export const Home = () => {
 										/>
 									</div>
 									<div className="col-12">
-										<label htmlFor="inputPassword" className="form-label">
+										<label htmlFor="inputPassword" className="text-white form-label">
 											Password
 										</label>
 										<input
@@ -61,16 +60,19 @@ export const Home = () => {
 											onChange={e => setPassword(e.target.value)}
 										/>
 									</div>
-									<div className="col-12">
-										<button type="button" className="btn btn-primary" onClick={handleClick}>
-											Iniciar esion
+									<div className="col-12 pt-2">
+										<button
+											type="button"
+											className="text-white btn btn-primary"
+											onClick={handleClick}>
+											Iniciar sesion
 										</button>
 									</div>
 									<div className="col-12">
-										<h5>¿Olvidaste tu contraseña?</h5>
+										<h5 className="text-white">¿Olvidaste tu contraseña?</h5>
 									</div>
 									<div className="col-12">
-										<button type="button" className="btn btn-primary ">
+										<button type="button" className="text-white btn btn-primary ">
 											Crear cuenta
 										</button>
 									</div>
@@ -83,17 +85,3 @@ export const Home = () => {
 		</div>
 	);
 };
-
-//    <div className="text-center mt-5">
-// 		<h1>Hello Rigo!</h1>
-// 		<p>
-// 			<img src={rigoImageUrl} />
-// 		</p>
-// 		<div className="alert alert-info">{store.message || "Loading message from the backend..."}</div>
-// 		<p>
-// 			This boilerplate comes with lots of documentation:{" "}
-// 			<a href="https://github.com/4GeeksAcademy/react-flask-hello/tree/95e0540bd1422249c3004f149825285118594325/docs">
-// 				Read documentation
-// 			</a>
-// 		</p>
-// 	</div>

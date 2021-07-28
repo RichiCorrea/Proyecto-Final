@@ -5,7 +5,6 @@
     z-index: 999;
     position: fixed;
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
 }
@@ -17,7 +16,10 @@
     margin: 2em;
     color: #3BFFCE;
 }
-
+.navbar ul li >.linkNavbar:hover{
+    margin: 2em;
+    color: white;
+}
 .MobileNavigation{
     display: none;
 }
@@ -39,6 +41,13 @@
         cursor: pointer;
         color: #3BFFCE;
     }
+    .MobileNavigation .hamburger:hover{
+        position: absolute;
+        right: 5%;
+        font-size: large;
+        cursor: pointer;
+        color: white;
+    }
 
     .navbar nav ul {
         display: flex;
@@ -48,7 +57,7 @@
         right: 0%;
         width: 100%;
         background-color: #306980;
-        border-top: 2px solid #3BFFCE;
+        border-top: 2px solid white;
     }
     .navbar nav ul li{
         padding: 3%;
