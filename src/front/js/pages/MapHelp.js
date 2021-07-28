@@ -4,6 +4,7 @@ import "../../styles/maphelp.scss";
 import BikeMeAppHELP from "../../img/BikeMeAppHELP.png";
 import bici from "../../img/bici.png";
 import estrella from "../../img/estrella.png";
+import { initMap } from "../component/map";
 
 export const MapHelp = () => {
 	return (
@@ -19,6 +20,7 @@ export const MapHelp = () => {
 					<div className="card">
 						<div className="row">
 							<div className="col-6">
+								<initMap />
 								<p>
 									<img className="help" src={BikeMeAppHELP} />
 								</p>

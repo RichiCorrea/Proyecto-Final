@@ -1,32 +1,73 @@
-mapboxgl.accessToken =
-  "pk.eyJ1Ijoid2ViZGV2c2ltcGxpZmllZCIsImEiOiJja2d1c2x2djAwODE1MnltaGNzeHljcWN4In0.4u6YymF-wOIYpDoUTMcNOQ"
+const initMap = () => {
+	var myloc = { lat: 38.3, lng: 36.3 };
+	var myopt = {
+		center: myloc,
+		zoom: 7,
+		mapTypeId: google.maps.MapTypeId.ROADMAP
+	};
 
-navigator.geolocation.getCurrentPosition(successLocation, errorLocation, {
-  enableHighAccuracy: true
-})
+	var map = new google.maps.Map(document.getElementById("googlemap", myopt));
 
-function successLocation(position) {
-  setupMap([position.coords.longitude, position.coords.latitude])
-}
+	var directionService = new google.maps.Map.DirectionsService();
 
-function errorLocation() {
-  setupMap([-2.24, 53.48])
-}
+	var directionDisplay = new google.maps.Map.DirectionsRenderer();
 
-function setupMap(center) {
-  const map = new mapboxgl.Map({
-    container: "map",
-    style: "mapbox://styles/mapbox/streets-v11",
-    center: center,
-    zoom: 15
-  })
+	directionDisplay.setMap(map);
 
-  const nav = new mapboxgl.NavigationControl()
-  map.addControl(nav)
+	function calcRoute() {
+		var request = {
+			origin: document.getElementById("from").value,
+			destination: document.getElementById("to").value,
+			travelMode: google.maps.TravelMode.DRIVING,
+			unitSystem: google.maps.UnitSystem.IMPERIAL
+		};
+	}
 
-  var directions = new MapboxDirections({
-    accessToken: mapboxgl.accessToken
-  })
+	directionService.route(request, (result, status) => {
+		if (status == google.maps.DirectionsStatus.Ok) {
+			const output = document.querySelector("#output");
+			output.innerHTML =
+				"<div className='alert-info' Desde: " +
+				document.getElementById("from").value +
+				".<br />Hacia: " +
+				document.getElementById("to").value +
+				". <br /> Distancia de Manejo: " +
+				result.routes[0].legs[0].distance.text +
+				".<br />Duracion: " +
+				result.routes[0].legs[0].duration.text +
+				". </div>";
 
-  map.addControl(directions, "top-left")
-}
+			directionDisplay.setDirections(result);
+		} else {
+			directionDisplay.setDirections({ routes: [] });
+			map.setCenter(myloc);
+			output.innerHTML = "<div className='alert-danger'> No se pudo calcular la ruta. </div>";
+		}
+	});
+
+	return (
+		<div className="jumbotron">
+			<div className="container-fluid">
+				<h1>El Mapa</h1>
+				<form className="form-horizontal">
+					<div className="form-group">
+						<div className="col-xs-4">
+							<input type="text" id="from" placeholder="origin" />
+						</div>
+					</div>
+
+					<div className="form-group">
+						<div className="col-xs-4">
+							<input type="text" id="to" placeholder="destiny" />
+						</div>
+					</div>
+					<div className="container-fluid">
+						<div className="googlemaps" />
+						<div className="output" />
+					</div>
+				</form>
+			</div>
+		</div>
+	);
+};
+export default initMap;
