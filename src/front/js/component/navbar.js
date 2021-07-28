@@ -1,12 +1,15 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "../../styles/navbar.scss";
+import NavLinks from "./NavLinks";
+import MobileNavigation from "./MobileNavigation";
+import Navigation from "./Navigation";
 
 export const Navbar = () => {
 	const [nav, setNav] = useState({
 		abierto: false
 	});
-	console.log(nav.abierto);
+	//console.log(nav.abierto);
 	const abrir = () => {
 		setNav(prevState => {
 			return {
@@ -17,7 +20,15 @@ export const Navbar = () => {
 	};
 
 	return (
-		<nav className="navbar navbar-expand-lg navbar-light bg-light">
+		<div>
+			<nav className="navbar">
+				<Navigation />
+				<MobileNavigation />
+			</nav>
+		</div>
+
+		/*<nav className="navbar navbar-expand-lg navbar-light bg-light">
+		<div className="logo">BikeMeApp</div>
 			<button
 				className="navbar-toggler"
 				type="button"
@@ -44,8 +55,8 @@ export const Navbar = () => {
 						</Link>
 					</li>
 				</ul>
-			</div>
-		</nav>
+			</div> 
+		</nav>*/
 
 		// <nav className="navbar navbar-light ">
 		// 	<Link to="/">
