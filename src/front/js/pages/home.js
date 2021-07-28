@@ -18,22 +18,23 @@ export const Home = () => {
 	if (store.token && store.token != "" && store.token != undefined) history.push("/demo");
 
 	return (
-		<div className="Container">
-			<div className="row justify-content-center">
-				<div className="col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6  text-center">
+		<div className="Container w-100">
+			<div className="mt-5" />
+			<div className="row d-flex justify-content-center align-items-center">
+				<div className="col-12 col-lg-6 text-center">
 					<h1 className="titulo">BikeMeApp</h1>
 					<p>
-						<img src={BikeMeApp} />
+						<img src={BikeMeApp} className="img-fluid" />
 					</p>
 				</div>
 
-				<div className="col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 pt-5">
-					<div className="card ml-3 mb-3">
+				<div className="row d-flex justify-content-center">
+					<div className="card col-12 col-lg-12">
 						{store.token && store.token != "" && store.token != undefined ? (
 							"You are logged in with this token" + store.token
 						) : (
-							<form>
-								<div className="row justify-content-center m-3">
+							<form className="col-11 py-2">
+								<div>
 									<div className="col-12">
 										<label htmlFor="" className="form-label">
 											Email
@@ -61,7 +62,7 @@ export const Home = () => {
 										/>
 									</div>
 									<div className="col-12">
-										<button type="button" className="btn btn-primary m-3" onClick={handleClick}>
+										<button type="button" className="btn btn-primary" onClick={handleClick}>
 											Iniciar esion
 										</button>
 									</div>
@@ -69,7 +70,7 @@ export const Home = () => {
 										<h5>¿Olvidaste tu contraseña?</h5>
 									</div>
 									<div className="col-12">
-										<button type="button" className="btn btn-primary m-3">
+										<button type="button" className="btn btn-primary ">
 											Crear cuenta
 										</button>
 									</div>

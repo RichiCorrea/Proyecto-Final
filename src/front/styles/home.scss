@@ -1,50 +1,31 @@
 .Container{
     background-color: #183540;
     width: 100%; 
-    flex: auto; 
 }
 h1{
     padding-top: 50px;
     color: #3BFFCE;
 }
-img{
-    width: 400px;
-    padding-top: 50px;  
-}
+
 button{
     background-color: #499EBF;
 }
 
 .card{
-    width: 26rem;
     background-color:#306980;
     border-radius: 30px;
-    
 }
 
 @media (max-width: 575.98px) { 
     h1{
         padding-top: 50px;
     }
-    .card{
-        width: 84px;
-    } 
-    img{
-        width: 230px !important;
-        padding-top: 20px;
-    }
+    
  }
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) and (max-width: 767.98px) { 
-    .card{
-        width: 95%;
-        margin-left: 3%;
-    } 
-    img{
-        width: 250px !important;
-        padding-top: 20px;
-    }
+ 
     .titulo{
         font-size: 50px;
     }
@@ -52,37 +33,18 @@ button{
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) and (max-width: 991.98px) { 
-    .card{
-        width: 95%;
-        margin-left: 2%;
-    }  
-    img{
-        width: 280px !important;
-        padding-top: 20px;
-    }
+      
     .titulo{
         font-size: 60px;
     }
  }
 
 // Large devices (desktops, 992px and up)
-@media (min-width: 992px) and (max-width: 1199.98px) { 
-    .card{
-        width: 26rem; 
-    } 
-    img{
-        width: 280px !important;
-        padding-top: 50px;
-       
-    }
-}
+
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { 
-    .card{
-        width: 26rem;
-        margin-top: 40px; 
-    } 
+    
     .logo{
         width: 280px !important;
         padding-top: 30px;
