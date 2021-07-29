@@ -1,0 +1,129 @@
+{
+    "type": "FeatureCollection",
+    "crs": {
+      "type": "name",
+      "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "TALLER_ID": 960,
+          "FACILITYID": 28014,
+          "NAME": "Taller de Ricardo",
+          "ADDRESS": "Enrique Foster Sur 39",
+          "MODIFIED_D": "2018/01/18",
+          "CREATED_DA": null,
+          "DESCRIPTIO": "Taller de bicicletas, ven a ver nuestros precios",
+          "HORARIO": "10:00 - 18:00",
+          "PICTURE_LI": null,
+          "PICTURE_DE": null,
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-33.41661, -70.59415]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "TALLER_ID": 860,
+          "FACILITYID": 28015,
+          "NAME": "Taller de Enzo",
+          "ADDRESS": "Los militares 4717",
+          "MODIFIED_D": "2018/01/18",
+          "CREATED_DA": null,
+          "DESCRIPTIO": "Taller de bicicletas y moto, calidad al mejor precio",
+          "HORARIO": "10:00 - 18:00",
+          "PICTURE_LI": null,
+          "PICTURE_DE": null,
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-33.41215, -70.58123]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "TALLER_ID": 260,
+          "FACILITYID": 28010,
+          "NAME": "Taller de Gabriel",
+          "ADDRESS": "Av. Pdte. Riesco 5698, Las Condes, Región Metropolitana",
+          "MODIFIED_D": "2018/01/18",
+          "CREATED_DA": null,
+          "DESCRIPTIO": "Taller de bicicletas, para el que no quiere gastar de mas",
+          "HORARIO": "10:00 - 18:00",
+          "PICTURE_LI": null,
+          "PICTURE_DE": null,
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-33.40216, -70.57057]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "TALLER_ID": 360,
+          "FACILITYID": 28019,
+          "NAME": "Taller de Daniel",
+          "ADDRESS": "Mariano Sánchez Fontecilla 528, Las Condes, Región Metropolitana",
+          "MODIFIED_D": "2018/01/18",
+          "CREATED_DA": null,
+          "DESCRIPTIO": "Taller de bicicletas, para bmx",
+          "HORARIO": "10:00 - 18:00",
+          "PICTURE_LI": null,
+          "PICTURE_DE": null,
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-33.42161, -70.59621]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "TALLER_ID": 460,
+          "FACILITYID": 28018,
+          "NAME": "Taller de Emilio",
+          "ADDRESS": "Enrique Foster Sur 39",
+          "MODIFIED_D": "2018/01/18",
+          "CREATED_DA": null,
+          "DESCRIPTIO": "Taller de bicicletas, para bicis de ruta y de dia a dia",
+          "HORARIO": "10:00 - 18:00",
+          "PICTURE_LI": null,
+          "PICTURE_DE": null,
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-33.41661, -70.59415]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "TALLER_ID": 760,
+          "FACILITYID": 28016,
+          "NAME": "Taller de Luis",
+          "ADDRESS": "Av. Apoquindo 4900, Local 18, Las Condes, Región Metropolitana",
+          "MODIFIED_D": "2018/01/18",
+          "CREATED_DA": null,
+          "DESCRIPTIO": "Matar clientes con nuestros precios es lo mejor",
+          "HORARIO": "10:00 - 18:00",
+          "PICTURE_LI": null,
+          "PICTURE_DE": null,
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-33.41177, -70.57807]
+        }
+      }
+    ]
+  }
