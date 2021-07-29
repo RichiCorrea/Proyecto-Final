@@ -12,9 +12,6 @@ export const MapHelp = () => {
 			<div className="row ">
 				<div className="col-md-12 col-lg-6 text-center pt-5">
 					<ElMap />
-					<p>
-						<img src={Maphelp} />
-					</p>
 				</div>
 
 				<div className="col-md-12 col-lg-6 text-center pt-5">
