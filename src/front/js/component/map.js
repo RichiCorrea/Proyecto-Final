@@ -9,14 +9,12 @@ const WrappedMap = withScriptjs(withGoogleMap(Map));
 
 export const ElMap = () => {
 	return (
-		<div style={{ width: "40px", height: "40px" }}>
+		<div style={{ width: "100vw", height: "100vh" }}>
 			<WrappedMap
-				googleMapURL={`https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=${
-					process.env.REACT_APP_GOOGLE_KEY
-				}`}
-				loadingElement={<div style={{ height: "40%" }} />}
-				containerElement={<div style={{ height: "40%" }} />}
-				mapElement={<div style={{ height: "40%" }} />}
+				googleMapURL={`https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=AIzaSyBuoRKA_0DrSMck1D2CJu-PhgTZEXwB270`}
+				loadingElement={<div style={{ height: "100%" }} />}
+				containerElement={<div style={{ height: "100%" }} />}
+				mapElement={<div style={{ height: "100%" }} />}
 			/>
 		</div>
 	);
