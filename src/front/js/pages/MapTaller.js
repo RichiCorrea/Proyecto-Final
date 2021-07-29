@@ -5,7 +5,7 @@ import Marker from "react-google-maps/lib/components/Marker";
 import * as TallerData from "/workspace/Proyecto-Final/src/data/Talleres.json";
 
 export const MapTaller = () => {
-	return (
+	/* return (
 		<div className="Container">
 			<div className="row  ">
 				<div className="col-md-12 col-lg-6 text-center pt-5">
@@ -14,19 +14,18 @@ export const MapTaller = () => {
 							<Marker
 								key={taller.properties.TALLER_ID}
 								position={{ lat: taller.geometry.coordinates[0], lng: taller.geometry.coordinates[1] }}
-							
-							onClick={() => {
-								setSelectedTaller(taller);
-							}}	
+								onClick={() => {
+									setSelectedTaller(taller);
+								}}
 							/>
 						))}
 
 						{setSelectedTaller && (
 							<InfoWindow
-							position={{ lat: taller.geometry.coordinates[0], lng: taller.geometry.coordinates[1] }}
-							onCloseClick={() => {
-								setSelectedTaller(null);
-							}} >
+								position={{ lat: taller.geometry.coordinates[0], lng: taller.geometry.coordinates[1] }}
+								onCloseClick={() => {
+									setSelectedTaller(null);
+								}}>
 								<div>
 									<h2>{selectedTaller.properties.NAME}</h2>
 									<p>{selectedTaller.properties.DESCRIPTIO}</p>
@@ -34,7 +33,6 @@ export const MapTaller = () => {
 								</div>
 							</InfoWindow>
 						)}
-
 					</ElMap>
 				</div>
 				<div className="col-md-12 col-lg-6 text-center pt-5">
@@ -57,5 +55,5 @@ export const MapTaller = () => {
 				</div>
 			</div>
 		</div>
-	);
+	); */
 };
