@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { GoogleMap, withScriptjs, withGoogleMap } from "react-google-maps";
 
 function Map() {
@@ -8,6 +8,7 @@ function Map() {
 const WrappedMap = withScriptjs(withGoogleMap(Map));
 
 export const ElMap = () => {
+	const [selectedTaller, setSelectedTaller] = useState(null);
 	return (
 		<div style={{ width: "100vw", height: "100vh" }}>
 			<WrappedMap
