@@ -36,7 +36,7 @@ export const Home = () => {
 			(ocultar.style.display = "none"), (aparecer.style.display = "block");
 		} else if (
 			Correo != "null" &&
-			Correo == "bikemeappcom@gmail.com" &&
+			Correo == "bikemeapp.com@gmail.com" &&
 			Contraseña != "null" &&
 			Contraseña == "4GeeksAcademy"
 		) {
