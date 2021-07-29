@@ -10,31 +10,31 @@ export const Footer = () => (
 						<h5 className="text-white">Quick links</h5>
 						<ul className="list-unstyled quick-links">
 							<li>
-								<a href="https://www.fiverr.com/share/qb8D02">
+								<a href="">
 									<i className="fa fa-angle-double-right" />
 									Home
 								</a>
 							</li>
 							<li>
-								<a href="https://www.fiverr.com/share/qb8D02">
+								<a href="">
 									<i className="fa fa-angle-double-right" />
 									About
 								</a>
 							</li>
 							<li>
-								<a href="https://www.fiverr.com/share/qb8D02">
+								<a href="">
 									<i className="fa fa-angle-double-right" />
 									FAQ
 								</a>
 							</li>
 							<li>
-								<a href="https://www.fiverr.com/share/qb8D02">
+								<a href="">
 									<i className="fa fa-angle-double-right" />
 									Get Started
 								</a>
 							</li>
 							<li>
-								<a href="https://www.fiverr.com/share/qb8D02">
+								<a href="">
 									<i className="fa fa-angle-double-right" />
 									Videos
 								</a>
@@ -46,31 +46,31 @@ export const Footer = () => (
 						<h5 className="text-white">Quick links</h5>
 						<ul className="list-unstyled quick-links">
 							<li>
-								<a href="https://www.fiverr.com/share/qb8D02">
+								<a href="">
 									<i className="fa fa-angle-double-right" />
 									Home
 								</a>
 							</li>
 							<li>
-								<a href="https://www.fiverr.com/share/qb8D02">
+								<a href="">
 									<i className="fa fa-angle-double-right" />
 									About
 								</a>
 							</li>
 							<li>
-								<a href="https://www.fiverr.com/share/qb8D02">
+								<a href="">
 									<i className="fa fa-angle-double-right" />
 									FAQ
 								</a>
 							</li>
 							<li>
-								<a href="https://www.fiverr.com/share/qb8D02">
+								<a href="">
 									<i className="fa fa-angle-double-right" />
 									Get Started
 								</a>
 							</li>
 							<li>
-								<a href="https://wwwe.sunlimetech.com" title="Design and developed by">
+								<a href="" title="Design and developed by">
 									<i className="fa fa-angle-double-right" />
 									Imprint
 								</a>
