@@ -12,7 +12,6 @@ export const Footer = () => (
 						<h5 className="text-white">MENU</h5>
 						<ul className="list-unstyled quick-links">
 							<li>
-<<<<<<< HEAD
 								<a href="">FUNCIONES</a>
 							</li>
 							<li>
@@ -24,39 +23,6 @@ export const Footer = () => (
 							<li>
 								<a href="">BLOG</a>
 							</li>
-							<li>
-								<a href="">AYUDA</a>
-=======
-								<a href="">
-									<i className="fa fa-angle-double-right" />
-									Home
-								</a>
-							</li>
-							<li>
-								<a href="">
-									<i className="fa fa-angle-double-right" />
-									About
-								</a>
-							</li>
-							<li>
-								<a href="">
-									<i className="fa fa-angle-double-right" />
-									FAQ
-								</a>
-							</li>
-							<li>
-								<a href="">
-									<i className="fa fa-angle-double-right" />
-									Get Started
-								</a>
-							</li>
-							<li>
-								<a href="">
-									<i className="fa fa-angle-double-right" />
-									Videos
-								</a>
->>>>>>> 2e2569ee78c2fb234ad25e3ad08246279ea6f5fc
-							</li>
 						</ul>
 					</div>
 
@@ -65,7 +31,6 @@ export const Footer = () => (
 						<ul className="list-unstyled quick-links">
 							<li>
 								<a href="">
-<<<<<<< HEAD
 									<i className="fab fa-facebook-square p-2" />
 									FACEBOOK
 								</a>
@@ -86,22 +51,6 @@ export const Footer = () => (
 								<a href="" title="Design and developed by">
 									<i className="fab fa-youtube p-2" />
 									YOUTUBE
-=======
-									<i className="fa fa-angle-double-right" />
-									Home
-								</a>
-							</li>
-							<li>
-								<a href="">
-									<i className="fa fa-angle-double-right" />
-									About
-								</a>
-							</li>
-							<li>
-								<a href="">
-									<i className="fa fa-angle-double-right" />
-									FAQ
->>>>>>> 2e2569ee78c2fb234ad25e3ad08246279ea6f5fc
 								</a>
 							</li>
 						</ul>
@@ -111,23 +60,12 @@ export const Footer = () => (
 						<ul className="list-unstyled quick-links">
 							<li>
 								<a href="">
-<<<<<<< HEAD
 									<img className="help p-0" src={appstoreaple} />
 								</a>
 							</li>
 							<li>
 								<a href="">
 									<img className="help p-0" src={googleplay} />
-=======
-									<i className="fa fa-angle-double-right" />
-									Get Started
-								</a>
-							</li>
-							<li>
-								<a href="" title="Design and developed by">
-									<i className="fa fa-angle-double-right" />
-									Imprint
->>>>>>> 2e2569ee78c2fb234ad25e3ad08246279ea6f5fc
 								</a>
 							</li>
 						</ul>
