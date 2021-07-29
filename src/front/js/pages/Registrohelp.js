@@ -15,12 +15,30 @@ export const Registrohelp = () => {
 				<div className="col-12 col-lg-6 text-center">
 					<div className="card mx-auto ">
 						<form>
-							<button type="button" className="btn btn-primary m-3">
-								activar
-							</button>
-							<button type="button" className="btn btn-primary m-3">
-								Desactivar
-							</button>
+							<div className="row  m-3 ">
+								<div className="col-12">
+									<label htmlFor="inputPassword" className="form-label">
+										Rut:
+									</label>
+									<input type="" className="form-control" id="" />
+								</div>
+								<div className="col-12">
+									<label htmlFor="inputPassword" className="form-label">
+										Numero de telefono:
+									</label>
+									<input type="" className="form-control" id="" />
+								</div>
+								<div className="col-6">
+									<button type="button" className="btn btn-primary m-3">
+										activar
+									</button>
+								</div>
+								<div className="col-6">
+									<button type="button" className="btn btn-primary m-3">
+										Desactivar
+									</button>
+								</div>
+							</div>
 						</form>
 					</div>
 				</div>
