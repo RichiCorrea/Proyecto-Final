@@ -36,9 +36,16 @@ export const Home = () => {
 			(ocultar.style.display = "none"), (aparecer.style.display = "block");
 		} else if (
 			Correo != "null" &&
-			Correo == "bikemeapp.com@gmail.com" &&
+			Correo == "bikemeappcom@gmail.com" &&
 			Contraseña != "null" &&
 			Contraseña == "4GeeksAcademy"
+		) {
+			(ocultar.style.display = "none"), (aparecer.style.display = "block");
+		} else if (
+			Correo != "null" &&
+			Correo == "enzodevotob@gmail.com" &&
+			Contraseña != "null" &&
+			Contraseña == "elmasrankiado"
 		) {
 			(ocultar.style.display = "none"), (aparecer.style.display = "block");
 			/* history.push("/demo") */
