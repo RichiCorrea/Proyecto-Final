@@ -6,10 +6,6 @@ import MobileNavigation from "./MobileNavigation";
 import Navigation from "./Navigation";
 
 export const Navbar = () => {
-	const [nav, setNav] = useState({
-		abierto: false
-	});
-
 	return (
 		<div>
 			<nav className="navbar">

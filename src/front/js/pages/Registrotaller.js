@@ -5,14 +5,14 @@ import RegisTrotaller from "../../img/RegisTrotaller.png";
 export const Registrotaller = () => {
 	return (
 		<div className="Container">
-			<div className="row">
-				<div className="col-6">
+			<div className="row d-flex m-0 justify-content-center align-items-center">
+				<div className="col-6 col-lg-6 text-center">
 					<h4>Aquí puedes activar tu perfil para ayudar a otras persona</h4>
 					<p>
 						<img src={RegisTrotaller} className="img-fluid" />
 					</p>
 				</div>
-				<div className="col-6">
+				<div className="col-6 col-lg-6 text-center">
 					<div className="card mx-auto ">
 						<form>
 							<div className="col-12">

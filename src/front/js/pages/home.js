@@ -15,6 +15,24 @@ export const Home = () => {
 		actions.login(email, password);
 	};
 
+	function validar() {
+		var Correo = document.getElementById("inputEmail").value;
+		var Contraseña = document.getElementById("inputPassword").value;
+
+		if (
+			Correo != "null" &&
+			Correo == "richi.correa.f@gmail.com" &&
+			Contraseña != "null" &&
+			Contraseña == "esmerilemelo"
+		) {
+			history.push("/demo");
+		} else if (Correo == "bikemeapp.com@gmail.com" && Contraseña == "4GeeksAcademy") {
+			history.push("/demo");
+		} else {
+			alert("Verifique sus credenciales");
+		}
+	}
+
 	if (store.token && store.token != "" && store.token != undefined) history.push("/demo");
 
 	return (
@@ -34,14 +52,14 @@ export const Home = () => {
 						) : (
 							<form className="col-11 py-2">
 								<div>
-									<div className="col-12">
+									<div className="col-12" id="my DIV" style={{ display: "block" }}>
 										<label htmlFor="" className="text-white form-label">
 											Email
 										</label>
 										<input
 											type="email"
 											className="form-control"
-											id=""
+											id="inputEmail"
 											placeholder="email@Address.com"
 											value={email}
 											onChange={e => setEmail(e.target.value)}
@@ -61,10 +79,7 @@ export const Home = () => {
 										/>
 									</div>
 									<div className="col-12 pt-2">
-										<button
-											type="button"
-											className="text-white btn btn-primary"
-											onClick={handleClick}>
+										<button type="button" className="text-white btn btn-primary" onClick={validar}>
 											Iniciar sesion
 										</button>
 									</div>
