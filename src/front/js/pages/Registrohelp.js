@@ -1,6 +1,6 @@
 import React from "react";
 import "../../styles/registrohelp.scss";
-import RegisTrohelp from "../../img/RegisTrohelp.png";
+import RegisTrohelp from "../../img/RegisTrohelp2.png";
 
 export const Registrohelp = () => {
 	return (
