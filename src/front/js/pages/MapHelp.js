@@ -4,14 +4,14 @@ import "../../styles/maphelp.scss";
 import BikeMeAppHELP from "../../img/BikeMeAppHELP.png";
 import bici from "../../img/bici.png";
 import estrella from "../../img/estrella.png";
-import { InitMap } from "../component/map";
+import { ElMap } from "../component/map";
 
 export const MapHelp = () => {
 	return (
 		<div className="Container">
 			<div className="row ">
 				<div className="col-md-12 col-lg-6 text-center pt-5">
-					<InitMap />
+					<ElMap />
 					<p>
 						<img src={Maphelp} />
 					</p>
