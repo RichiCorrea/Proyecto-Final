@@ -1,7 +1,7 @@
 import React, { useContext, useState } from "react";
 import { Link, useHistory } from "react-router-dom";
 import { Context } from "../store/appContext";
-import BikeMeApp from "../../img/BikeMeApp.png";
+import BikeMeApp from "../../img/BikeMeApp3.png";
 import "../../styles/home.scss";
 
 export const Home = () => {
@@ -21,7 +21,7 @@ export const Home = () => {
 		<div className="Container w-100 m-0 py-5">
 			<div className="row d-flex m-0 justify-content-center align-items-center">
 				<div className="col-12 col-lg-6 text-center">
-					<h1 className="titulo">BikeMeApp</h1>
+					{/* 					<h1 className="titulo">BikeMeApp</h1> */}
 					<p>
 						<img src={BikeMeApp} className="img-fluid" />
 					</p>
