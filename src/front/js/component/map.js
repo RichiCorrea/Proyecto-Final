@@ -1,6 +1,6 @@
 import React from "react";
 
-const initMap = () => {
+export const InitMap = () => {
 	var myloc = { lat: 38.3, lng: 36.3 };
 	var myopt = {
 		center: myloc,
@@ -26,7 +26,7 @@ const initMap = () => {
 	}
 
 	directionService.route(request, (result, status) => {
-		if (status == google.maps.DirectionsStatus.Ok) {
+		if (status == google.maps.DirectionsStatus.OK) {
 			const output = document.querySelector("#output");
 			output.innerHTML =
 				"<div className='alert-info' Desde: " +
@@ -47,6 +47,16 @@ const initMap = () => {
 		}
 	});
 
+	var options = {
+		types: ["(ciudades)"]
+	};
+
+	var input1 = document.getElementById("from");
+	var autocomplete1 = new google.maps.places.Autocomplete(input1, options);
+
+	var input2 = document.getElementById("to");
+	var autocomplete2 = new google.maps.places.Autocomplete(input2, options);
+
 	return (
 		<div className="jumbotron">
 			<div className="container-fluid">
@@ -64,7 +74,7 @@ const initMap = () => {
 						</div>
 					</div>
 					<div className="container-fluid">
-						<div className="googlemaps" />
+						<div className="googlemap" />
 						<div className="output" />
 					</div>
 				</form>
@@ -72,4 +82,3 @@ const initMap = () => {
 		</div>
 	);
 };
-export default initMap;
