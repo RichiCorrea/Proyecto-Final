@@ -18,14 +18,15 @@ export const Home = () => {
 	function validar() {
 		var Correo = document.getElementById("inputEmail").value;
 		var Contraseña = document.getElementById("inputPassword").value;
-
+		var ocultar = document.getElementById("my DIV");
+		var aparecer = document.getElementById("myH1");
 		if (
 			Correo != "null" &&
 			Correo == "richi.correa.f@gmail.com" &&
 			Contraseña != "null" &&
 			Contraseña == "esmerilemelo"
 		) {
-			history.push("/demo");
+			(ocultar.style.display = "none"), (aparecer.style.display = "block");
 		} else if (Correo == "bikemeapp.com@gmail.com" && Contraseña == "4GeeksAcademy") {
 			history.push("/demo");
 		} else {
@@ -39,20 +40,23 @@ export const Home = () => {
 		<div className="Container w-100 m-0 py-5">
 			<div className="row d-flex m-0 justify-content-center align-items-center">
 				<div className="col-12 col-lg-6 text-center">
-					{/* 					<h1 className="titulo">BikeMeApp</h1> */}
+					{/* 					<h1 ">BikeMeApp</h1> */}
 					<p>
 						<img src={BikeMeApp} className="img-fluid" />
 					</p>
+					<h2 className="titulo" id="myH1" style={{ display: "none", color: "#41DABF" }}>
+						Que el viento sea tu única oposición
+					</h2>
 				</div>
 
 				<div className="row d-flex justify-content-center py-5">
-					<div className="card col-12 col-lg-12">
+					<div className="card col-12 col-lg-12" id="my DIV" style={{ display: "block" }}>
 						{store.token && store.token != "" && store.token != undefined ? (
 							"You are logged in with this token" + store.token
 						) : (
 							<form className="col-11 py-2">
 								<div>
-									<div className="col-12" id="my DIV" style={{ display: "block" }}>
+									<div className="col-12">
 										<label htmlFor="" className="text-white form-label">
 											Email
 										</label>
