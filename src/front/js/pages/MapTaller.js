@@ -62,6 +62,6 @@ export const MapTaller = () => {
 					</div>
 				</div>
 			</div>
-		</>
+		</div>
 	);
 };
