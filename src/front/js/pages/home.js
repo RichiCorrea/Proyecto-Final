@@ -59,7 +59,7 @@ export const Home = () => {
 	return (
 		<div className="Container container-fluid">
 			<div className="row d-flex justify-content-center align-items-center">
-				<div className="col-10 py-5 col-lg-6 text-center">
+				<div className="col-10 py-3 col-lg-6 text-center">
 					{/* 					<h1 ">BikeMeApp</h1> */}
 					<p>
 						<img src={BikeMeApp} className="img-fluid" />
@@ -107,7 +107,7 @@ export const Home = () => {
 											Iniciar sesion
 										</button>
 									</div>
-									<div className="col-12 text-center">
+									<div className="col-12 mt-2 text-center">
 										<a href="/Registro">
 											<button type="button" className="text-white btn btn-primary">
 												Crear cuenta
