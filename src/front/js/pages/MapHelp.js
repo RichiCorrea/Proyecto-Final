@@ -13,56 +13,29 @@ export const MapHelp = () => {
 				<ElMap />
 			</div>
 
-<<<<<<< HEAD
-				<div className="col-md-12 col-lg-6 text-center pt-5">
-					<div className="card">
-						<div className="row text-white">
-							<div className="col-6">
-								<p>
-									<img className="help" src={BikeMeAppHELP} />
-								</p>
-							</div>
-							<div className="col-6 pt-5">
-								<h2>En camino en 15 min</h2>
-							</div>
-							<div className="col-6">
-								<p>
-									<img className="bici" src={bici} />
-								</p>
-							</div>
-							<div className="col-6 ">
-								<div className="nota">
-									<p>
-										<img className="help " src={estrella} />
-									</p>
-									<h3>7.5</h3>
-								</div>
-							</div>
-=======
-			<div className="col-8 col-lg-6 text-center pt-3">
-				<div className="tarjeta d-flex align-items-center row">
-					<div className="row col-12">
+			<div className="col-md-12 col-lg-6 text-center pt-5">
+				<div className="card">
+					<div className="row text-white">
 						<div className="col-6">
 							<p>
-								<img className="help img-fluid" src={BikeMeAppHELP} />
+								<img className="help" src={BikeMeAppHELP} />
 							</p>
 						</div>
-						<div className="col-6 text-white">
+						<div className="col-6 pt-5">
 							<h2>En camino en 15 min</h2>
 						</div>
-					</div>
-					<div className="row col-12">
 						<div className="col-6">
 							<p>
-								<img className="img-fluid" src={bici} />
+								<img className="bici" src={bici} />
 							</p>
 						</div>
-						<div className="col-6">
-							<p>
-								<img className="img-fluid" src={estrella} />
-							</p>
-							<h3>7.5</h3>
->>>>>>> e9a18c98a14c2204575f9ff047324d32560230b7
+						<div className="col-6 ">
+							<div className="nota">
+								<p>
+									<img className="help " src={estrella} />
+								</p>
+								<h3>7.5</h3>
+							</div>
 						</div>
 					</div>
 				</div>
