@@ -16,6 +16,7 @@
           "CREATED_DA": null,
           "DESCRIPTIO": "Taller de bicicletas, ven a ver nuestros precios",
           "HORARIO": "10:00 - 18:00",
+          "CALIFICACION": "*****",
           "PICTURE_LI": null,
           "PICTURE_DE": null,
           "PICTURE__1": null
@@ -36,6 +37,7 @@
           "CREATED_DA": null,
           "DESCRIPTIO": "Taller de bicicletas y moto, calidad al mejor precio",
           "HORARIO": "10:00 - 18:00",
+          "CALIFICACION": "****",
           "PICTURE_LI": null,
           "PICTURE_DE": null,
           "PICTURE__1": null
@@ -56,6 +58,7 @@
           "CREATED_DA": null,
           "DESCRIPTIO": "Taller de bicicletas, para el que no quiere gastar de mas",
           "HORARIO": "10:00 - 18:00",
+          "CALIFICACION": "*****",
           "PICTURE_LI": null,
           "PICTURE_DE": null,
           "PICTURE__1": null
@@ -76,6 +79,7 @@
           "CREATED_DA": null,
           "DESCRIPTIO": "Taller de bicicletas, para bmx",
           "HORARIO": "10:00 - 18:00",
+          "CALIFICACION": "*****",
           "PICTURE_LI": null,
           "PICTURE_DE": null,
           "PICTURE__1": null
@@ -90,12 +94,13 @@
         "properties": {
           "TALLER_ID": 460,
           "FACILITYID": 28018,
-          "NAME": "Taller de Emilio",
+          "NAME": "Taller de Consuelo",
           "ADDRESS": "Enrique Foster Sur 39",
           "MODIFIED_D": "2018/01/18",
           "CREATED_DA": null,
           "DESCRIPTIO": "Taller de bicicletas, para bicis de ruta y de dia a dia",
           "HORARIO": "10:00 - 18:00",
+          "CALIFICACION": "**",
           "PICTURE_LI": null,
           "PICTURE_DE": null,
           "PICTURE__1": null
@@ -116,6 +121,7 @@
           "CREATED_DA": null,
           "DESCRIPTIO": "Matar clientes con nuestros precios es lo mejor",
           "HORARIO": "10:00 - 18:00",
+          "CALIFICACION": "*",
           "PICTURE_LI": null,
           "PICTURE_DE": null,
           "PICTURE__1": null
