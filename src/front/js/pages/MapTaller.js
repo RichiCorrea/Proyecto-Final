@@ -14,6 +14,7 @@ import * as TallerData from "/workspace/Proyecto-Final/src/data/Talleres.json";
 export const MapTaller = () => {
 	const [selectedTaller, setSelectedTaller] = useState(null);
 	return (
+<<<<<<< HEAD
 		<div className="Container">
 			<div className="row  ">
 				<div className="col-md-12 col-lg-6 text-center pt-5">
@@ -59,6 +60,13 @@ export const MapTaller = () => {
 								<h3>San Eugenio 1502, Ñuñoa</h3>
 							</li>
 						</ul>
+=======
+		<>
+			<div className="Container">
+				<div className="row  ">
+					<div className="col-md-12 col-lg-6 text-center pt-5">
+						<ElMap />
+>>>>>>> 1c69496d4ad432061b72c2adf1fd53c950de7886
 					</div>
 				</div>
 			</div>
