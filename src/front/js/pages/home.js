@@ -108,9 +108,11 @@ export const Home = () => {
 										</button>
 									</div>
 									<div className="col-12 text-center">
-										<button type="button" className="text-white btn btn-primary">
-											Crear cuenta
-										</button>
+										<a href="/Registro">
+											<button type="button" className="text-white btn btn-primary">
+												Crear cuenta
+											</button>
+										</a>
 									</div>
 								</div>
 							</form>
