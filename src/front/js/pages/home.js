@@ -57,9 +57,9 @@ export const Home = () => {
 	if (store.token && store.token != "" && store.token != undefined) history.push("/demo");
 
 	return (
-		<div className="Container w-100 m-0 py-5">
-			<div className="row d-flex m-0 justify-content-center align-items-center">
-				<div className="col-12 col-lg-6 text-center">
+		<div className="Container">
+			<div className="row d-flex justify-content-center align-items-center">
+				<div className="col-10 py-5 col-lg-6 text-center">
 					{/* 					<h1 ">BikeMeApp</h1> */}
 					<p>
 						<img src={BikeMeApp} className="img-fluid" />
@@ -69,12 +69,12 @@ export const Home = () => {
 					</h2>
 				</div>
 
-				<div className="row d-flex justify-content-center py-5">
-					<div className="card col-12 col-lg-12" id="my DIV" style={{ display: "block" }}>
+				<div className="row d-flex justify-content-center">
+					<div className="card col-10" id="my DIV" style={{ display: "block" }}>
 						{store.token && store.token != "" && store.token != undefined ? (
 							"You are logged in with this token" + store.token
 						) : (
-							<form className="col-11 py-2">
+							<form className="row col-11">
 								<div>
 									<div className="col-12">
 										<label htmlFor="" className="text-white form-label">
@@ -102,7 +102,7 @@ export const Home = () => {
 											onChange={e => setPassword(e.target.value)}
 										/>
 									</div>
-									<div className="col-12 pt-2">
+									<div className="col-12 pt-2 text-center">
 										<button type="button" className="text-white btn btn-primary" onClick={validar}>
 											Iniciar sesion
 										</button>
@@ -110,8 +110,8 @@ export const Home = () => {
 									<div className="col-12">
 										<h5 className="text-white">¿Olvidaste tu contraseña?</h5>
 									</div>
-									<div className="col-12">
-										<button type="button" className="text-white btn btn-primary ">
+									<div className="col-12 text-center">
+										<button type="button" className="text-white btn btn-primary">
 											Crear cuenta
 										</button>
 									</div>
