@@ -12,7 +12,7 @@ export const Registrohelp = () => {
 						<img src={RegisTrohelp} className="img-fluid" />
 					</p>
 				</div>
-				<div className="col-12 col-lg-6 text-center">
+				<div className="col-12 col-lg-6 ">
 					<div className="card mx-auto ">
 						<form>
 							<div className="row  m-3 ">
@@ -30,7 +30,7 @@ export const Registrohelp = () => {
 								</div>
 								<div className="col-6">
 									<button type="button" className="btn btn-primary m-3">
-										activar
+										Activar
 									</button>
 								</div>
 								<div className="col-6">
