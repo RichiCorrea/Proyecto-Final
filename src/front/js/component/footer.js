@@ -30,15 +30,15 @@ export const Footer = () => (
 						<h5 className="text-white">SEGUIR</h5>
 						<ul className="list-unstyled">
 							<li>
-								<a href="">
-									<i className="fab fa-facebook-square p-2" />
-									FACEBOOK
+								<a href="https://www.instagram.com/bikemeapp/">
+									<i className="fab fa-instagram p-2" />
+									INSTAGRAM
 								</a>
 							</li>
 							<li>
 								<a href="">
-									<i className="fab fa-instagram p-2" />
-									INSTAGRAM
+									<i className="fab fa-facebook-square p-2" />
+									FACEBOOK
 								</a>
 							</li>
 							<li>

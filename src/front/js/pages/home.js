@@ -107,9 +107,6 @@ export const Home = () => {
 											Iniciar sesion
 										</button>
 									</div>
-									<div className="col-12">
-										<h5 className="text-white">¿Olvidaste tu contraseña?</h5>
-									</div>
 									<div className="col-12 text-center">
 										<button type="button" className="text-white btn btn-primary">
 											Crear cuenta
