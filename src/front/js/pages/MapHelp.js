@@ -8,12 +8,12 @@ import { ElMap } from "../component/map";
 
 export const MapHelp = () => {
 	return (
-		<div className="Container">
-			<div className="row ">
-				<div className="col-md-12 col-lg-6 text-center pt-5">
-					<ElMap />
-				</div>
+		<div className="Container row text-center d-flex justify-content-center align-items-center">
+			<div className="col-10 col-lg-6 pb-5">
+				<ElMap />
+			</div>
 
+<<<<<<< HEAD
 				<div className="col-md-12 col-lg-6 text-center pt-5">
 					<div className="card">
 						<div className="row text-white">
@@ -38,6 +38,31 @@ export const MapHelp = () => {
 									<h3>7.5</h3>
 								</div>
 							</div>
+=======
+			<div className="col-8 col-lg-6 text-center pt-3">
+				<div className="tarjeta d-flex align-items-center row">
+					<div className="row col-12">
+						<div className="col-6">
+							<p>
+								<img className="help img-fluid" src={BikeMeAppHELP} />
+							</p>
+						</div>
+						<div className="col-6 text-white">
+							<h2>En camino en 15 min</h2>
+						</div>
+					</div>
+					<div className="row col-12">
+						<div className="col-6">
+							<p>
+								<img className="img-fluid" src={bici} />
+							</p>
+						</div>
+						<div className="col-6">
+							<p>
+								<img className="img-fluid" src={estrella} />
+							</p>
+							<h3>7.5</h3>
+>>>>>>> e9a18c98a14c2204575f9ff047324d32560230b7
 						</div>
 					</div>
 				</div>

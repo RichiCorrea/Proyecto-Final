@@ -10,7 +10,7 @@ export const Footer = () => (
 				<div className="row d-flex justify-content-between text-center text-xs-center text-sm-left text-md-left py-3">
 					<div className="col-xs-12 col-sm-4 col-md-4">
 						<h5 className="text-white">MENU</h5>
-						<ul className="list-unstyled quick-links">
+						<ul className="list-unstyled">
 							<li>
 								<a href="">FUNCIONES</a>
 							</li>
@@ -28,7 +28,7 @@ export const Footer = () => (
 
 					<div className="col-xs-12 col-sm-4 col-md-4">
 						<h5 className="text-white">SEGUIR</h5>
-						<ul className="list-unstyled quick-links">
+						<ul className="list-unstyled">
 							<li>
 								<a href="">
 									<i className="fab fa-facebook-square p-2" />

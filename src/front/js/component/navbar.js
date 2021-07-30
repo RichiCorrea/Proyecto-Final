@@ -8,11 +8,10 @@ import Navigation from "./Navigation";
 export const Navbar = () => {
 	return (
 		<div>
-			<nav className="navbar">
+			<nav className="navbar fixed-top">
 				<Navigation />
 				<MobileNavigation />
 			</nav>
-			<div className="mb-5" />
 		</div>
 	);
 };
