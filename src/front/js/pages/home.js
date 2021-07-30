@@ -27,8 +27,28 @@ export const Home = () => {
 			Contraseña == "esmerilemelo"
 		) {
 			(ocultar.style.display = "none"), (aparecer.style.display = "block");
-		} else if (Correo == "bikemeapp.com@gmail.com" && Contraseña == "4GeeksAcademy") {
-			history.push("/demo");
+		} else if (
+			Correo != "null" &&
+			Correo == "gabo.angel123@gmail.com" &&
+			Contraseña != "null" &&
+			Contraseña == "123456"
+		) {
+			(ocultar.style.display = "none"), (aparecer.style.display = "block");
+		} else if (
+			Correo != "null" &&
+			Correo == "bikemeappcom@gmail.com" &&
+			Contraseña != "null" &&
+			Contraseña == "4GeeksAcademy"
+		) {
+			(ocultar.style.display = "none"), (aparecer.style.display = "block");
+		} else if (
+			Correo != "null" &&
+			Correo == "enzodevotob@gmail.com" &&
+			Contraseña != "null" &&
+			Contraseña == "elmasrankiado"
+		) {
+			(ocultar.style.display = "none"), (aparecer.style.display = "block");
+			/* history.push("/demo") */
 		} else {
 			alert("Verifique sus credenciales");
 		}
