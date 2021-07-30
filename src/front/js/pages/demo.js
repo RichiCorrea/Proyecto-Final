@@ -11,25 +11,24 @@ export const Demo = () => {
 	const { store, actions } = useContext(Context);
 
 	return (
-		<div className="Container">
-			<div className="row  ">
-				<div className="col-md-12 col-lg-6 text-center pt-5">
-					<div className="ml-auto">
-						<Link to="/MapHelp">
-							<button className="btn ">
-								<p>
-									<img src={BikeMeAppHELP} />
-								</p>
-							</button>
-						</Link>
-					</div>
+		<div className="demoContainer container-fluid text-center">
+			<div className="text-white row">
+				<h2 className="mt-5">que tipo de servicio necesitas</h2>
+			</div>
+			<div className="row">
+				<div className="col-12 col-lg-6 text-center">
+					<Link to="/MapHelp">
+						<p>
+							<img src={BikeMeAppHELP} className="img-fluid" />{" "}
+						</p>
+					</Link>
 				</div>
-				<div className="col-md-12 col-lg-6 text-center pt-5">
+				<div className="col-12 col-lg-6 text-center">
 					<div className="ml-auto">
 						<Link to="/MapTaller">
-							<button className="btn ">
+							<button className="btn">
 								<p>
-									<img src={BikeMeAppTALLER} />
+									<img src={BikeMeAppTALLER} className="img-fluid" />
 								</p>
 							</button>
 						</Link>
