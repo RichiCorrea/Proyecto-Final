@@ -46,15 +46,12 @@ export const Registro = () => {
 						</label>
 						<input type="password" className="form-control" id="inputPassword" />
 					</div>
-					<div className="col-6">
-						<button type="button" className="btn btn-primary m-3">
-							Iniciar esion
-						</button>
-					</div>
-					<div className="col-6">
-						<button type="button" className="btn btn-primary m-3">
-							Crear cuenta
-						</button>
+					<div className="col-12 text-center">
+						<a href="/Demo">
+							<button type="button" className="text-white btn btn-primary">
+								Iniciar Sesion
+							</button>
+						</a>
 					</div>
 				</div>
 			</form>
