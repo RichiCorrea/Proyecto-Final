@@ -10,7 +10,7 @@ const WrappedMap = withScriptjs(withGoogleMap(Map));
 export const ElMap = () => {
 	const [selectedTaller, setSelectedTaller] = useState(null);
 	return (
-		<div style={{ width: "100vw", height: "100vh" }}>
+		<div className="col-12 col-lg-6 text-center pt-5" style={{ width: "100%", height: "90vh" }}>
 			<WrappedMap
 				googleMapURL={`https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=AIzaSyBuoRKA_0DrSMck1D2CJu-PhgTZEXwB270`}
 				loadingElement={<div style={{ height: "100%" }} />}

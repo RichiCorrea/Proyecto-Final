@@ -57,7 +57,7 @@ export const Home = () => {
 	if (store.token && store.token != "" && store.token != undefined) history.push("/demo");
 
 	return (
-		<div className="Container">
+		<div className="Container container-fluid">
 			<div className="row d-flex justify-content-center align-items-center">
 				<div className="col-10 py-5 col-lg-6 text-center">
 					{/* 					<h1 ">BikeMeApp</h1> */}
@@ -70,7 +70,7 @@ export const Home = () => {
 				</div>
 
 				<div className="row d-flex justify-content-center">
-					<div className="card col-10" id="my DIV" style={{ display: "block" }}>
+					<div className="col-10 tarjeta" id="my DIV" style={{ display: "block" }}>
 						{store.token && store.token != "" && store.token != undefined ? (
 							"You are logged in with this token" + store.token
 						) : (
