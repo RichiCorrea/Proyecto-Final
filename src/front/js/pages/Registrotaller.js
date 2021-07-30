@@ -14,29 +14,6 @@ export const Registrotaller = () => {
 						</p>
 					</div>
 				</div>
-<<<<<<< HEAD
-				<div className="col-6 col-lg-6 text-center">
-					<div className="card mx-auto text-white">
-						<form>
-							<div className="col-12">
-								<label htmlFor="inputPassword" className="form-label">
-									Nombre del Taller:
-								</label>
-								<input type="" className="form-control" id="" />
-							</div>
-							<div className="col-12">
-								<label htmlFor="inputPassword" className="form-label">
-									Direccion del Taller
-								</label>
-								<input type="" className="form-control" id="" />
-							</div>
-							<div className="col-12">
-								<p>
-									Sube una imagen de tu Taller:
-									<input type="file" name="imagensubida" accept="image/png, .jpeg, .jpg, image/gif" />
-								</p>
-							</div>
-=======
 				<form className="row tarjeta col-10 col-lg-6 ">
 					<div className="col-10 col-lg-11">
 						<div className="col-12">
@@ -57,7 +34,6 @@ export const Registrotaller = () => {
 								<input type="file" name="imagensubida" accept="image/png, .jpeg, .jpg, image/gif" />
 							</p>
 						</div>
->>>>>>> e9a18c98a14c2204575f9ff047324d32560230b7
 
 						<button type="submit" className="btn btn-primary m-3">
 							Enviar
