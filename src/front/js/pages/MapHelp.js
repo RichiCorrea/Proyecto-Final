@@ -13,7 +13,7 @@ export const MapHelp = () => {
 				<ElMap />
 			</div>
 
-			<div className="col-8 col-lg-6 text-center pt-3">
+			<div className="col-8 col-lg-12 text-center pt-3">
 				<div className="tarjeta d-flex align-items-center row">
 					<div className="row col-12">
 						<div className="col-6">
