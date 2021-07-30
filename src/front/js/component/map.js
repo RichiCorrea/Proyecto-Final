@@ -9,6 +9,7 @@ const WrappedMap = withScriptjs(withGoogleMap(Map));
 
 export const ElMap = () => {
 	const [selectedTaller, setSelectedTaller] = useState(null);
+	marker.setMap(null);
 	return (
 		<div style={{ width: "100vw", height: "100vh" }}>
 			<WrappedMap
