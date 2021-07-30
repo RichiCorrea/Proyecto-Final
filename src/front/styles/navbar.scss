@@ -1,6 +1,6 @@
 .navbar {
     background-color: #499EBF;
-    height: 40px;
+    height: 8vh;
     width: 100%;
     z-index: 999;
     position: fixed;
@@ -14,11 +14,11 @@
     flex-direction: row;
 }
 .navbar ul li >.linkNavbar{
-    margin: 2em;
+    margin: 1em;
     color: #3BFFCE;
 }
 .navbar ul li >.linkNavbar:hover{
-    margin: 2em;
+    margin: 1em;
     color: white;
 }
 .MobileNavigation{
@@ -37,16 +37,12 @@
     }
     .MobileNavigation .hamburger{
         position: absolute;
-        right: 5%;
-        font-size: large;
+        right: 15%;
         cursor: pointer;
         color: #3BFFCE;
     }
     .MobileNavigation .hamburger:hover{
-        position: absolute;
-        right: 5%;
-        font-size: large;
-        cursor: pointer;
+       
         color: white;
     }
 
@@ -54,8 +50,8 @@
         display: flex;
         flex-direction: column;
         position: absolute;
-        top: 80px;
-        right: 0%;
+        top: 50px;
+        //right: 5%;
         width: 100%;
         background-color: #306980;
         border-top: 2px solid white;
