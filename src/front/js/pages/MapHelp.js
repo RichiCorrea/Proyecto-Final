@@ -16,7 +16,7 @@ export const MapHelp = () => {
 
 				<div className="col-md-12 col-lg-6 text-center pt-5">
 					<div className="card">
-						<div className="row">
+						<div className="row text-white">
 							<div className="col-6">
 								<p>
 									<img className="help" src={BikeMeAppHELP} />

@@ -13,7 +13,7 @@ export const Registrotaller = () => {
 					</p>
 				</div>
 				<div className="col-6 col-lg-6 text-center">
-					<div className="card mx-auto ">
+					<div className="card mx-auto text-white">
 						<form>
 							<div className="col-12">
 								<label htmlFor="inputPassword" className="form-label">
@@ -29,7 +29,7 @@ export const Registrotaller = () => {
 							</div>
 							<div className="col-12">
 								<p>
-									Sube una imagen:
+									Sube una imagen de tu Taller:
 									<input type="file" name="imagensubida" accept="image/png, .jpeg, .jpg, image/gif" />
 								</p>
 							</div>

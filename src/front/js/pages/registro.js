@@ -6,33 +6,33 @@ export const Registro = () => {
 		<div className="Container">
 			<div className="card mx-auto ">
 				<form>
-					<div className="row  m-3 ">
+					<div className="row  m-3 text-white">
 						<div className="col-12">
-							<label htmlFor="inputPassword" className="form-label">
-								Nombre de usuario
+							<label htmlFor="inputPassword" className="form-label ">
+								Nombre de usuario:
 							</label>
 							<input type="" className="form-control" id="" />
 						</div>
 						<div className="col-12">
 							<label htmlFor="" className="form-label">
-								Email address
+								Email:
 							</label>
 							<input type="email" className="form-control" id="" />
 						</div>
 						<div className="col-12">
 							<label htmlFor="inputPassword" className="form-label">
-								Password
+								Contraseña:
 							</label>
 							<input type="password" className="form-control" id="inputPassword" />
 						</div>
 						<div className="col-12">
 							<label htmlFor="inputPassword" className="form-label">
-								Direccion
+								Direccion:
 							</label>
 							<input type="password" className="form-control" id="inputPassword" />
 						</div>
 						<div className="col-12">
-							Paises
+							Paises:
 							<select id="inputState" className="form-control" value>
 								<option selected>Seleciona Paises</option>
 								<option value="santiago">Chile</option>
@@ -43,7 +43,7 @@ export const Registro = () => {
 
 						<div className="col-12">
 							<label htmlFor="inputPassword" className="form-label">
-								Ciudad
+								Ciudad:
 							</label>
 							<input type="password" className="form-control" id="inputPassword" />
 						</div>

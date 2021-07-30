@@ -15,7 +15,7 @@ export const Registrohelp = () => {
 				<div className="col-12 col-lg-6 ">
 					<div className="card mx-auto ">
 						<form>
-							<div className="row  m-3 ">
+							<div className="row  m-3 text-white">
 								<div className="col-12">
 									<label htmlFor="inputPassword" className="form-label">
 										Rut:
