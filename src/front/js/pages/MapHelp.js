@@ -9,7 +9,7 @@ import { ElMap } from "../component/map";
 export const MapHelp = () => {
 	return (
 		<div className="Container row text-center d-flex justify-content-center align-items-center">
-			<div className="col-10 col-lg-6 pb-5">
+			<div className="col-9 col-lg-9 pb-5">
 				<ElMap />
 			</div>
 
