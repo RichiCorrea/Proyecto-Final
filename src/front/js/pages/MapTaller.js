@@ -7,7 +7,7 @@ export const MapTaller = () => {
 	return (
 		<div className="Container">
 			<div className="row  ">
-				<div className="col-md-12 col-lg-6 text-center pt-5">
+				{/* <div className="col-md-12 col-lg-6 text-center pt-5">
 					<ElMap>
 						{TallerData.features.map(taller => (
 							<Marker
@@ -33,7 +33,7 @@ export const MapTaller = () => {
 							</InfoWindow>
 						)}
 					</ElMap>
-				</div>
+				</div> */}
 				<div className="col-md-12 col-lg-6 text-center pt-5">
 					<div className="card">
 						<ul className="">
