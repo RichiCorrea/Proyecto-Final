@@ -11,7 +11,7 @@ export const Registro = () => {
 							<label htmlFor="inputPassword" className="form-label">
 								Nombre de usuario
 							</label>
-							<input type="" className="form-control" id="" />
+							<input type="text" className="form-control" id="" />
 						</div>
 						<div className="col-12">
 							<label htmlFor="" className="form-label">
@@ -56,6 +56,7 @@ export const Registro = () => {
 							<button type="button" className="btn btn-primary m-3">
 								Crear cuenta
 							</button>
+							<input type="submit" className="btn btn-primary" value="enviar" />
 						</div>
 					</div>
 				</form>
