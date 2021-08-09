@@ -70,11 +70,11 @@ export const Home = () => {
 				</div>
 
 				<div className="row d-flex justify-content-center">
-					<div className="col-10 tarjeta" id="my DIV" style={{ display: "block" }}>
+					<div className="col-10 tarjeta p-4" id="my DIV" style={{ display: "block" }}>
 						{store.token && store.token != "" && store.token != undefined ? (
 							"You are logged in with this token" + store.token
 						) : (
-							<form className="row col-11">
+							<form className="row inicio col-11 mx-auto">
 								<div>
 									<div className="col-12">
 										<label htmlFor="" className="text-white form-label">

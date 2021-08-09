@@ -11,9 +11,9 @@ export const Demo = () => {
 	const { store, actions } = useContext(Context);
 
 	return (
-		<div className="demoContainer container-fluid text-center">
-			<div className="text-white row">
-				<h2 className="mt-5">que tipo de servicio necesitas</h2>
+		<div className="demoContainer container-fluid ">
+			<div className="text-white row  ">
+				<h2 className="mt-5 ">Que tipo de servicio necesitas</h2>
 			</div>
 			<div className="row">
 				<div className="col-12 col-lg-6 text-center">
