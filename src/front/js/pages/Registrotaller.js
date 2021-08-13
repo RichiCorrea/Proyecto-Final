@@ -38,13 +38,13 @@ export const Registrotaller = () => {
 						<div className="row p-3">
 							<div className="col-6">
 								<label htmlFor="inputPassword" className="form-label p-1">
-									Abierto
+									Hora de Apertura
 								</label>
 								<input type="" className="form-control" id="" />
 							</div>
 							<div className="col-6">
 								<label htmlFor="inputPassword" className="form-label p-1">
-									Cerrado
+									Hora de Cierrre
 								</label>
 								<input type="" className="form-control" id="" />
 							</div>
