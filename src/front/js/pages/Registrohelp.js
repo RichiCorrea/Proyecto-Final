@@ -17,7 +17,7 @@ export const Registrohelp = () => {
 						<form>
 							<div className="row  m-3 text-white">
 								<div className="col-12">
-									<label htmlFor="inputPassword" className="form-label">
+									<label htmlFor="inputPassword" className="form-label p-1">
 										Rut:
 									</label>
 									<input type="" className="form-control" id="" />

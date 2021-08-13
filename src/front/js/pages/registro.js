@@ -6,9 +6,9 @@ export const Registro = () => {
 		<div className="Container">
 			<div className="card mx-auto ">
 				<form>
-					<div className="row  m-3 ">
+					<div className="row  m-3 text-white">
 						<div className="col-12">
-							<label htmlFor="inputPassword" className="form-label">
+							<label htmlFor="inputPassword" className="form-label p-1">
 								Nombre de usuario
 							</label>
 							<input type="text" className="form-control" id="" />
