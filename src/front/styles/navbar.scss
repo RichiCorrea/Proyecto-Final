@@ -1,5 +1,6 @@
 .navbar {
-    background-color: #499EBF;
+    background: rgb(62,143,175);
+    background: radial-gradient(circle, #499EBF 30%, rgba(26,77,97,1) 88%, rgba(24,53,64,1) 96%, rgba(24,53,64,0.5) 100%);
     height: 8vh;
     width: 100vw;
     z-index: 999;
@@ -7,6 +8,7 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 5px;
+    size: 20px;
 }
 .navbar ul{
     display: flex;
@@ -14,11 +16,11 @@
 }
 .navbar ul li >.linkNavbar{
     margin: 1em;
-    color: #3BFFCE;
+    color: white;
 }
 .navbar ul li >.linkNavbar:hover{
     margin: 1em;
-    color: white;
+    color: #3BFFCE;
 }
 .MobileNavigation{
     display: none;
@@ -41,7 +43,7 @@
         color: #3BFFCE;
     }
     .MobileNavigation .hamburger:hover{
-        color: white;
+        color: #FCE33E;
     }
 
     .navbar nav ul {
@@ -51,7 +53,7 @@
         top: 50px;
         right: 0%;
         width: 100%;
-        background-color: #306980;
+        background-color: #30698044;
         border-top: 2px solid white;
     }
     .navbar nav ul li{

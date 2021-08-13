@@ -1,5 +1,6 @@
  .Container{
-     background-color: #183540;
+    background: rgb(13,81,106);
+    background: radial-gradient(circle, rgba(13,81,106,1) 30%, rgba(24,53,64,1) 65%, rgba(24,53,64,1) 90%, rgba(24,53,64,0.5) 100%);
      width: 100%; 
  }
 
@@ -9,7 +10,8 @@ button{
 }
 
 .tarjeta{
-    background-color:#306980;
+    background-image: radial-gradient( circle farthest-corner at 99% 99%,  #2c5194 0%, #3E8FAF 95% );
+    box-shadow: rgba(7, 11, 39, 0.15) 2.8px 2.8px 3.8px;
     border-radius: 15px;
     // margin: 5rem 0;
     // padding: 3rem 0;
