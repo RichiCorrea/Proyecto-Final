@@ -5,12 +5,12 @@ import BikeMeAppHELP from "../../img/BikeMeAppHELP.png";
 import bici from "../../img/bici.png";
 import estrella from "../../img/estrella.png";
 import { ElMap } from "../component/map";
-
+import { MapLeaf } from "../component/MapLeaf";
 export const MapHelp = () => {
 	return (
 		<div className="Container row text-center d-flex justify-content-center align-items-center">
 			<div className="col-12 col-lg-9 pb-5">
-				<ElMap />
+				<MapLeaf />
 			</div>
 
 			<div className="col-md-12 col-lg-6 text-center pt-5">
