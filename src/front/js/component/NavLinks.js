@@ -7,12 +7,12 @@ const NavLinks = () => {
 		<ul>
 			<li className="list-unstyled">
 				<Link to="/" className="linkNavbar">
-					Home
+					Inicio
 				</Link>
 			</li>
 			<li className="list-unstyled">
 				<Link to="/Demo" className="linkNavbar">
-					Demo
+					Servicios
 				</Link>
 			</li>
 			<li className="list-unstyled">
