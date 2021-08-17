@@ -1,5 +1,5 @@
 {
-    "type": "FeatureCollection",
+    "type": "TallerColeccion",
     "crs": {
       "type": "name",
       "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" }
@@ -32,7 +32,7 @@
           "TALLER_ID": 860,
           "FACILITYID": 28015,
           "NAME": "Taller de Enzo",
-          "ADDRESS": "Los militares 4717",
+          "ADDRESS": "Luis Rodriguez Velazco 4712",
           "MODIFIED_D": "2018/01/18",
           "CREATED_DA": null,
           "DESCRIPTIO": "Taller de bicicletas y moto, calidad al mejor precio",
@@ -44,7 +44,7 @@
         },
         "geometry": {
           "type": "Point",
-          "coordinates": [-33.41215, -70.58123]
+          "coordinates": [-33.41332873510364, -70.58016327607187]
         }
       },
       {

@@ -1,4 +1,4 @@
-import React, { useContext, useState } from "react";
+import React, { useContext, useState, useEffect } from "react";
 import { Link, useHistory } from "react-router-dom";
 import { Context } from "../store/appContext";
 import BikeMeApp from "../../img/BikeMeApp3.png";
@@ -9,6 +9,24 @@ export const Home = () => {
 	const [email, setEmail] = useState("");
 	const [password, setPassword] = useState("");
 	const history = useHistory();
+
+	const [state, setState] = useState({
+		longitude: 0,
+		latitude: 0
+	});
+	useEffect(() => {
+		navigator.geolocation.getCurrentPosition(
+			function(position) {
+				setState({
+					longitude: position.coords.longitude,
+					latitude: position.coords.latitude
+				});
+			},
+			function(error) {
+				console.log(error);
+			}
+		);
+	});
 
 	console.log("This is your token", store.token);
 	const handleClick = () => {
