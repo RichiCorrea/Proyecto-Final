@@ -8,7 +8,9 @@
 	"main": "index.js",
 	"scripts": {
 		"start": "webpack-dev-server --config webpack.dev.js --port 3000",
-		"build": "webpack --config webpack.prod.js"
+		"build": "webpack --config webpack.prod.js",
+		"test": "react-scripts test",
+		"eject": "react-scripts eject"
 	},
 	"author": {
 		"name": "Alejandro Sanchez",
@@ -29,6 +31,7 @@
 		"@babel/cli": "^7.4.3",
 		"@babel/core": "^7.4.3",
 		"@babel/plugin-proposal-class-properties": "^7.4.0",
+		"@babel/plugin-proposal-nullish-coalescing-operator": "^7.14.5",
 		"@babel/plugin-transform-runtime": "^7.12.17",
 		"@babel/preset-env": "^7.4.3",
 		"@babel/preset-react": "^7.0.0",
@@ -76,14 +79,26 @@
 		]
 	},
 	"dependencies": {
+		"@react-leaflet/core": "^1.0.2",
 		"bootstrap": "^4.3.1",
+		"leaflet": "^1.7.1",
 		"prop-types": "^15.6.1",
 		"react": "^16.8.4",
 		"react-dom": "^16.8.4",
 		"react-google-maps": "^9.4.5",
 		"react-icons": "^4.2.0",
-		"react-leaflet": "^3.2.1",
+		"react-leaflet": "^3.1.0",
 		"react-polyfills": "0.0.1",
 		"react-router-dom": "^5.2.0"
+	},
+	"eslintConfig": {
+		"extends": "react-app"
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		]
 	}
 }

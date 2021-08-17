@@ -39,7 +39,7 @@ export const MapLeaf = props => {
 			<MapContainer center={state.currentLocation} zoom={state.zoom}>
 				<TileLayer
 					url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-					attribution="&copy; <a href=&quot;http://osm.org/copyright&quot;>OpenStreetMap</a> contributors"
+					attribution="&copy; <a href=&quot;https://www.openstreetmap.org/copyright&quot;>OpenStreetMap</a> contributors"
 				/>
 				<Marker
 					Marker

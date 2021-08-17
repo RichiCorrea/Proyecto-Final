@@ -1,18 +1,14 @@
 import React from "react";
-import Maphelp from "../../img/Maphelp.png";
 import "../../styles/maphelp.scss";
 import BikeMeAppHELP from "../../img/BikeMeAppHELP.png";
 import bici from "../../img/bici.png";
 import estrella from "../../img/estrella.png";
-import { ElMap } from "../component/map";
-import { MapLeaf } from "../component/MapLeaf";
-export const MapHelp = () => {
+import { MapView } from "../component/MapLeaf2";
+const MapHelp = () => {
 	return (
 		<div className="Container row text-center d-flex justify-content-center align-items-center">
-			<div className="col-12 col-lg-9 pb-5">
-				<MapLeaf />
-			</div>
-
+			<div className="col-12 col-lg-9 pb-5" />
+			<MapView />
 			<div className="col-md-12 col-lg-6 text-center pt-5">
 				<div className="card">
 					<div className="row text-white">
@@ -43,3 +39,4 @@ export const MapHelp = () => {
 		</div>
 	);
 };
+export default MapHelp;

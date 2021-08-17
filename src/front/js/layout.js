@@ -1,12 +1,11 @@
 import React from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import ScrollToTop from "./component/scrollToTop";
-
 import { Home } from "./pages/home";
 import { Registro } from "./pages/registro";
 import { Demo } from "./pages/demo";
 import { Single } from "./pages/single";
-import { MapHelp } from "./pages/MapHelp";
+import MapHelp from "./pages/MapHelp";
 import { MapTaller } from "./pages/MapTaller";
 import { Registrohelp } from "./pages/Registrohelp";
 import { Registrotaller } from "./pages/Registrotaller";
