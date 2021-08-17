@@ -1,39 +1,34 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import "../../styles/maptaller.scss";
-import { ElMap } from "../component/map";
-
+import { MapView } from "../component/MapLeaf2";
 export const MapTaller = () => {
 	const [selectedTaller, setSelectedTaller] = useState(null);
+	const [state, setState] = useState({
+		longitude: 0,
+		latitude: 0
+	});
+	useEffect(() => {
+		navigator.geolocation.getCurrentPosition(
+			function(position) {
+				setState({
+					longitude: position.coords.longitude,
+					latitude: position.coords.latitude
+				});
+			},
+			function(error) {
+				console.log(error);
+			},
+			{
+				enableHighAccuracy: true
+			}
+		);
+	});
 	return (
 		<div className="Container">
 			<div className="row  ">
-				{/* <div className="col-md-12 col-lg-6 text-center pt-5">
-					<ElMap>
-						{TallerData.features.map(taller => (
-							<Marker
-								key={taller.properties.TALLER_ID}
-								position={{ lat: taller.geometry.coordinates[0], lng: taller.geometry.coordinates[1] }}
-								onClick={() => {
-									setSelectedTaller(taller);
-								}}
-							/>
-						))}
+				<MapView />
 
-						{setSelectedTaller && (
-							<InfoWindow
-								position={{ lat: taller.geometry.coordinates[0], lng: taller.geometry.coordinates[1] }}
-								onCloseClick={() => {
-									setSelectedTaller(null);
-								}}>
-								<div>
-									<h2>{selectedTaller.properties.NAME}</h2>
-									<p>{selectedTaller.properties.DESCRIPTIO}</p>
-									<p>{selectedTaller.propierties.HORARIO}</p>
-								</div>
-							</InfoWindow>
-						)}
-					</ElMap>
-				</div> */}
 				<div className="col-md-12 col-lg-6 text-center pt-5">
 					<div className="card">
 						<ul className="">

@@ -1,7 +1,7 @@
+import React from "react";
 import L from "leaflet";
-
 export const IconLocation = L.icon({
-	iconUrl: "leaf-green.png",
+	iconUrl: require("/workspace/Proyecto-Final/src/assets/Taller.svg"),
 	iconAnchor: null,
 	shadowUrl: null,
 	shadowSize: null,
