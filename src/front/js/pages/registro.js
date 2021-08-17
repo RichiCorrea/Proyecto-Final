@@ -75,7 +75,7 @@ export const Registro = () => {
 							</a>
 						</div>
 						<div className="col-2">
-							<input type="submit" className="btn btn-primary m-3 position-relative" value="enviar" />
+							<input type="submit" className="btn btn-primary m-3 position-relative" value="Registar" />
 						</div>
 					</div>
 				</form>
