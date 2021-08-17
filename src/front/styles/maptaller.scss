@@ -25,8 +25,19 @@ img{
 }
 .leaflet-container {
     width: 70vw;
-    height: 50vh;
+    height: 60vh;
 }
-.leaflet-popup-content { 
-    width:auto !important; 
+.leaflet-popup-content-wrapper {
+    width: 21vw;
+    height: 18vh;
+}
+h7{
+    color: black;
+}
+h8{
+    color: grey;
+
+}
+h9 {
+    color: red;
 }

@@ -26,7 +26,7 @@ export const Demo = () => {
 					<h4 className="text-center" style={{ color: "white" }}>
 						Taller: puedes verificar los talleres de bicicletas cercanos a tu ubicación.
 					</h4>
-					<Link to="/MapHelp">
+					<Link to="/MapTaller">
 						<button className="btn">
 							<p>
 								<img src={BikeMeAppTALLER} className="img-fluid" />
@@ -39,7 +39,7 @@ export const Demo = () => {
 						Help: un técnico que puede ir a tu ubicación y realizar reparaciones en ruta.
 					</h4>
 
-					<Link to="/MapTaller">
+					<Link to="/MapHelp">
 						<p>
 							<img src={BikeMeAppHELP} className="img-fluid" />{" "}
 						</p>
