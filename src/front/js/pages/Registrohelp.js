@@ -5,12 +5,17 @@ import RegisTrohelp from "../../img/RegisTrohelp2.png";
 export const Registrohelp = () => {
 	return (
 		<div className="Container">
-			<div className="row d-flex m-0 justify-content-center align-items-center">
-				<div className="col-12 col-lg-6 text-center">
-					<h4>Aquí puedes activar tu perfil para ayudar a otras persona</h4>
-					<p>
-						<img src={RegisTrohelp} className="img-fluid" />
-					</p>
+			<div className="row d-flex justify-content-center align-items-center">
+				<div className="row col-12 col-lg-6 ">
+					<div className="text-center">
+						<h4>
+							Proximamente aquí podrás activar tu perfil para ayudar a otras personas con problemas en
+							ruta
+						</h4>
+						<p>
+							<img src={RegisTrohelp} className="img-fluid" />
+						</p>
+					</div>
 				</div>
 				<div className="col-12 col-lg-6 ">
 					<div className="card mx-auto ">

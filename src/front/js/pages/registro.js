@@ -46,6 +46,7 @@ export const Registro = () => {
 							<input
 								type=""
 								placeholder="Dirección con numeración 123"
+								title="Debe contener letras y numeros"
 								className="form-control"
 								id="inputPassword"
 								required

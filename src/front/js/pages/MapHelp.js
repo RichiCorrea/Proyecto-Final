@@ -6,7 +6,6 @@ import estrella from "../../img/estrella.png";
 import { MapView } from "../component/MapLeaf2";
 import { Link } from "react-router-dom";
 const MapHelp = () => {
-
 	const [state, setState] = useState({
 		longitude: 0,
 		latitude: 0
