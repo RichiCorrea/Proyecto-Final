@@ -9,8 +9,8 @@ export const Registrohelp = () => {
 				<div className="row col-12 col-lg-6 ">
 					<div className="text-center">
 						<h4>
-							Proximamente aquí podrás activar tu perfil para ayudar a otras personas con problemas en
-							ruta
+							Proximamente aquí podrás activar tu perfil Help para ayudar a otras personas con problemas
+							en ruta.
 						</h4>
 						<p>
 							<img src={RegisTrohelp} className="img-fluid" />
@@ -25,7 +25,14 @@ export const Registrohelp = () => {
 									<label htmlFor="inputPassword" className="form-label p-1">
 										Rut:
 									</label>
-									<input type="" className="form-control" id="" />
+									<input
+										type=""
+										placeholder="XXXXXXXX-X"
+										pattern="!/^[0-9]+[-|‐]{1}[0-9kK]{1}$/"
+										className="form-control"
+										id=""
+										required
+									/>
 								</div>
 								<div className="col-12">
 									<label htmlFor="inputPassword" className="form-label">

@@ -68,7 +68,7 @@ export const Home = () => {
 			(ocultar.style.display = "none"), (aparecer.style.display = "block");
 			/* history.push("/demo") */
 		} else {
-			alert("Verifique sus credenciales");
+			alert("Verifique sus credenciales o cree una cuenta");
 		}
 	}
 

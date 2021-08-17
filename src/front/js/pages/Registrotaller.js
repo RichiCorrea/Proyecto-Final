@@ -9,8 +9,8 @@ export const Registrotaller = () => {
 				<div className="row col-12 col-lg-6 ">
 					<div className="text-center">
 						<h4>
-							Aquí puedes solicitar la activación de tu taller en el mapa, asi otras personas podrán
-							encontrarte cuando lo necesiten
+							Aquí puedes solicitar la activación de tu Taller en el mapa, así otras personas podrán
+							encontrarte cuando lo necesiten.
 						</h4>
 						<p>
 							<img src={RegisTrotaller} className="img-fluid" />
@@ -23,13 +23,13 @@ export const Registrotaller = () => {
 							<label htmlFor="inputPassword " className="form-labelp-1">
 								Nombre del Taller:
 							</label>
-							<input type="" className="form-control" id="" />
+							<input type="" className="form-control" id="" required />
 						</div>
 						<div className="col-12">
 							<label htmlFor="inputPassword" className="form-label p-1">
 								Direccion del Taller
 							</label>
-							<input type="" className="form-control" id="" />
+							<input type="" className="form-control" id="" required />
 						</div>
 						<div className="col-12">
 							<label htmlFor="inputPassword" className="form-label p-1">
@@ -43,13 +43,13 @@ export const Registrotaller = () => {
 								<label htmlFor="inputPassword" className="form-label p-1">
 									Hora de Apertura
 								</label>
-								<input type="" className="form-control" id="" />
+								<input type="" className="form-control" id="" required />
 							</div>
 							<div className="col-6">
 								<label htmlFor="inputPassword" className="form-label p-1">
 									Hora de Cierrre
 								</label>
-								<input type="" className="form-control" id="" />
+								<input type="" className="form-control" id="" required />
 							</div>
 						</div>
 
