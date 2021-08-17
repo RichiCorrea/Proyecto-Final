@@ -10,9 +10,10 @@ export const Markers = props => {
 			position={{ lat: taller.geometry.coordinates[0], lng: taller.geometry.coordinates[1] }}
 			icon={IconLocation}>
 			<Popup>
-				<h1>{taller.properties.NAME}</h1>
-				<h2>{taller.properties.DESCRIPTIO}</h2>
-				<p>{taller.properties.HORARIO}</p>
+				<h7>{taller.properties.NAME}</h7>
+				<br />
+				<h8>{taller.properties.DESCRIPTIO}</h8>
+				<h9>{taller.properties.HORARIO}</h9>
 			</Popup>
 		</Marker>
 	));
