@@ -105,17 +105,18 @@ export const Home = () => {
 											placeholder="email@Address.com"
 											value={email}
 											onChange={e => setEmail(e.target.value)}
+											required
 										/>
 									</div>
 									<div className="col-12">
 										<label htmlFor="inputPassword" className="text-white form-label">
-											Password
+											Contraseña
 										</label>
 										<input
 											type="password"
 											className="form-control"
 											id="inputPassword"
-											placeholder="password"
+											placeholder="Contraseña"
 											value={password}
 											onChange={e => setPassword(e.target.value)}
 										/>

@@ -11,25 +11,45 @@ export const Registro = () => {
 							<label htmlFor="inputPassword" className="form-label p-1">
 								Nombre de usuario
 							</label>
-							<input type="text" className="form-control" id="" />
+							<input type="text" placeholder="Usuario" className="form-control" id="" required />
 						</div>
 						<div className="col-12">
 							<label htmlFor="" className="form-label">
-								Email address
+								Email
 							</label>
-							<input type="email" className="form-control" id="" />
+							<input
+								type="email"
+								placeholder="email@Address.com"
+								className="form-control"
+								id=""
+								required
+							/>
 						</div>
 						<div className="col-12">
 							<label htmlFor="inputPassword" className="form-label">
-								Password
+								Contraseña
 							</label>
-							<input type="password" className="form-control" id="inputPassword" />
+							<input
+								type="password"
+								placeholder="Contraseña"
+								pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+								title="Debe contener al menos 8 caracteres con un número, una letra mayúscula y una minúscula"
+								className="form-control"
+								id="inputPassword"
+								required
+							/>
 						</div>
 						<div className="col-12">
 							<label htmlFor="inputPassword" className="form-label">
-								Direccion
+								Dirección
 							</label>
-							<input type="password" className="form-control" id="inputPassword" />
+							<input
+								type=""
+								placeholder="Dirección con numeración 123"
+								className="form-control"
+								id="inputPassword"
+								required
+							/>
 						</div>
 						<div className="col-12">
 							Paises
@@ -45,18 +65,17 @@ export const Registro = () => {
 							<label htmlFor="inputPassword" className="form-label">
 								Ciudad
 							</label>
-							<input type="password" className="form-control" id="inputPassword" />
+							<input type="" placeholder="Ciudad" className="form-control" id="inputPassword" required />
 						</div>
-						<div className="col-6">
-							<button type="button" className="btn btn-primary m-3">
-								Iniciar esion
-							</button>
+						<div className="col-9">
+							<a href="/">
+								<button type="button" className="btn btn-primary m-3">
+									Volver al inicio de sesión
+								</button>
+							</a>
 						</div>
-						<div className="col-6">
-							<button type="button" className="btn btn-primary m-3">
-								Crear cuenta
-							</button>
-							<input type="submit" className="btn btn-primary" value="enviar" />
+						<div className="col-2">
+							<input type="submit" className="btn btn-primary m-3 position-relative" value="enviar" />
 						</div>
 					</div>
 				</form>
