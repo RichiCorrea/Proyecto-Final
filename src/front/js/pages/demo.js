@@ -23,8 +23,8 @@ export const Demo = () => {
 			</div>
 			<div className="row">
 				<div className="col-12 col-lg-6 text-center text-white">
-					<h4 className="text-center ">
-						Help es un técnico que puede ir a tu ubicación y realizar reparaciones en ruta
+					<h4 className="text-center" style={{ color: "white" }}>
+						Help: un técnico que puede ir a tu ubicación y realizar reparaciones en ruta.
 					</h4>
 
 					<Link to="/MapHelp">
@@ -34,18 +34,16 @@ export const Demo = () => {
 					</Link>
 				</div>
 				<div className="col-12 col-lg-6 text-center text-white">
-					<div className="ml-auto">
-						<h4 className="text-center ">
-							Puedes verificar los talleres de bicicletas cercanos a tu ubicación
-						</h4>
-						<Link to="/MapTaller">
-							<button className="btn">
-								<p>
-									<img src={BikeMeAppTALLER} className="img-fluid" />
-								</p>
-							</button>
-						</Link>
-					</div>
+					<h4 className="text-center" style={{ color: "white" }}>
+						Taller: puedes verificar los talleres de bicicletas cercanos a tu ubicación.
+					</h4>
+					<Link to="/MapTaller">
+						<button className="btn">
+							<p>
+								<img src={BikeMeAppTALLER} className="img-fluid" />
+							</p>
+						</button>
+					</Link>
 				</div>
 			</div>
 		</div>
