@@ -12,27 +12,38 @@ export const Demo = () => {
 
 	return (
 		<div className="demoContainer container-fluid ">
-			<div className="text-white row  ">
-				<h2 className="mt-5 ">Que tipo de servicio necesitas</h2>
+			<div className="row">
+				<div className="col-12 col-lg-12 text-center text-white">
+					<h1 className="text-center ">¿Qué tipo de servicio necesitas?</h1>
+				</div>
+
+				<div className="col-6 col-lg-6 text-center text-white">
+					<h5 className="text-center " />
+				</div>
 			</div>
 			<div className="row">
-				<div className="col-12 col-lg-6 text-center">
+				<div className="col-12 col-lg-6 text-center text-white">
+					<h4 className="text-center" style={{ color: "white" }}>
+						Help: un técnico que puede ir a tu ubicación y realizar reparaciones en ruta.
+					</h4>
+
 					<Link to="/MapHelp">
 						<p>
 							<img src={BikeMeAppHELP} className="img-fluid" />{" "}
 						</p>
 					</Link>
 				</div>
-				<div className="col-12 col-lg-6 text-center">
-					<div className="ml-auto">
-						<Link to="/MapTaller">
-							<button className="btn">
-								<p>
-									<img src={BikeMeAppTALLER} className="img-fluid" />
-								</p>
-							</button>
-						</Link>
-					</div>
+				<div className="col-12 col-lg-6 text-center text-white">
+					<h4 className="text-center" style={{ color: "white" }}>
+						Taller: puedes verificar los talleres de bicicletas cercanos a tu ubicación.
+					</h4>
+					<Link to="/MapTaller">
+						<button className="btn">
+							<p>
+								<img src={BikeMeAppTALLER} className="img-fluid" />
+							</p>
+						</button>
+					</Link>
 				</div>
 			</div>
 		</div>

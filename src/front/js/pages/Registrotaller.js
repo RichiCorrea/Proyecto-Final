@@ -8,7 +8,10 @@ export const Registrotaller = () => {
 			<div className="row  d-flex justify-content-center align-items-center">
 				<div className="row col-12 col-lg-6 ">
 					<div className="text-center">
-						<h4>Aquí puedes activar tu perfil para ayudar a otras persona</h4>
+						<h4>
+							Aquí puedes solicitar la activación de tu taller en el mapa, asi otras personas podrán
+							encontrarte cuando lo necesiten
+						</h4>
 						<p>
 							<img src={RegisTrotaller} className="img-fluid" />
 						</p>
