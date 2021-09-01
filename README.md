@@ -63,11 +63,11 @@ It is recomended to install the backend first, make sure you have Python 3.8, Pi
 
 This boilerplate it's 100% integrated with Herkou, just by pushing your changes to the heroku repository it will deploy: `$ git push heroku main` -->
 
-Este trabajo fue realizado por:
+<h1>Este trabajo fue realizado por:<h1>
 
-Gabriel Valdivia Norambuena
-Daniel Troncoso Gonzalez 
-Ricardo Correa 
-Enzo Devoto
+<p>Gabriel Valdivia Norambuena<p>
+<p>Daniel Troncoso Gonzalez <p>
+<p>Ricardo Correa<p>
+<p>Enzo Devoto<p>
 
 
