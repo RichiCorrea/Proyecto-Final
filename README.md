@@ -65,9 +65,9 @@ This boilerplate it's 100% integrated with Herkou, just by pushing your changes 
 
 <h1>Este trabajo fue realizado por:<h1>
 
-<p>Gabriel Valdivia Norambuena<p>
-<p>Daniel Troncoso Gonzalez <p>
-<p>Ricardo Correa<p>
-<p>Enzo Devoto<p>
+<h3>Gabriel Valdivia Norambuena<h3>
+<h3>Daniel Troncoso Gonzalez <h3>
+<h3>Ricardo Correa<h3>
+<h3>Enzo Devoto<h3>
 
 
