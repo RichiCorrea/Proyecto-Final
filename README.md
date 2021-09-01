@@ -1,4 +1,4 @@
-# WebApp boilerplate with React JS
+<!-- # WebApp boilerplate with React JS
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/react-flask-hello.git)
 
 <p align="center">
@@ -61,4 +61,13 @@ It is recomended to install the backend first, make sure you have Python 3.8, Pi
 
 ## Publish your website!
 
-This boilerplate it's 100% integrated with Herkou, just by pushing your changes to the heroku repository it will deploy: `$ git push heroku main`
+This boilerplate it's 100% integrated with Herkou, just by pushing your changes to the heroku repository it will deploy: `$ git push heroku main` -->
+
+Este trabajo fue realizado por:
+
+Gabriel Valdivia Norambuena
+Daniel Troncoso Gonzalez 
+Ricardo Correa 
+Enzo Devoto
+
+
