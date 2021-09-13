@@ -70,4 +70,19 @@ This boilerplate it's 100% integrated with Herkou, just by pushing your changes 
 <h3>Ricardo Correa<h3>
 <h3>Enzo Devoto<h3>
 
+<h1>Lenguaje y Tecnologia<h1>
+  
+ <h3>HTML<h3>
+ <h3>Javascrip.js<h3>
+ <h3>Css<h3>
+ <h3>React.js<h3>
+ <h3>booststrap<h3>
+ <h3>MySQL<h3>
+ <h3>Flask<h3>
+ <h3>SQLAlchemy<h3>
+ <h3>Phyton<h3>
+ <h3>Photoshop<h3>
+ <h3>Adobe Xd<h3>
+ <h3>Scrum<h3>
+   
 
